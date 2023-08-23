@@ -7,6 +7,9 @@
 
 Every file possible to convert was converted, some of these files could still be converted, but contain 0 meshes. Such files aren't included
 
+Also there are some .blend files that I made during the exploration of the files, feel free to use them.
+If there are some files that weren't exported (and they can be exported)- please let me know in the Ussues section 
+
 How to copy this large repo:
 You need to add a few adjustments to .gitconfig that is global to your system.
 
