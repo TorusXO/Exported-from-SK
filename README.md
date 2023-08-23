@@ -9,6 +9,9 @@ Every file possible to convert was converted, some of these files could still be
 
 Also there are some .blend files that I made during the exploration of the files, feel free to use them.
 If there are some files that weren't exported (and they can be exported)- please let me know in the Issues section 
+#### why do I need this repo?
+I wanted to make fanarts of the game, that's why I had to export whole folders at once. 
+Now I'm sharing it with you, so that there could be more 3D arts or animations of our beloved game.
 
 ## How to copy this large repo:
 You need to add a few adjustments to .gitconfig that is global to your system.
