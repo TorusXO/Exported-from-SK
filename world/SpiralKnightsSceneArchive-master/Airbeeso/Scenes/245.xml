@@ -1,0 +1,3677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java class="com.threerings.export.XMLImporter" version="1.0">
+<object class="com.threerings.tudey.data.TudeySceneModel">
+  <placeConfig class="com.threerings.projectx.dungeon.data.LevelSceneConfig">
+  </placeConfig>
+  <cfgmgr>
+  </cfgmgr>
+  <tiles depth="1">
+    <cells>
+      <key class="com.threerings.tudey.util.Coord">0, 0</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, 0, 0, 0, 327680, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 327680, 0, 0, 0, 0, 0, 0, 0, 2621443, 2686976, 2686976, 2686976, 2621440, 0, 0, 0, 2752514, 1048577, 65538, 1114114, 2752512, 2686976, 2686976, 2686976, 2555907, 458753, -1, 458755, 2752512, 65538, 65538, 65538, 65538, 196609, -1, 262147, 2752512, -1, -1, -1, -1, -1, -1, 262147, 2752512</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">2, 2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1114127, 2752524, 12, 12, 12, 2752526, 1900556, 65549, 2621454, 2621453, 12, 12, 12, 2752526, 1900556, 65549, 12, 12, 12, 12, 12, 2752526, 1900556, 262157, 12, 327692, 327692, 12, 12, 2752526, 1835020, 65549, 12, 12, 12, 12, 12, 2752526, 1835020, 458765, 2621455, 2621452, 327692, 327692, 327692, 2752526, 1835020, 262157, 1769484, 2752524, 12, 12, 12, 2752526, 1769484, 458765, 1835020, 2752524, 327692, 12, 12, 2752526, 1835020, 65549</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-3, -2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>65524, 65524, 65524, 393204, 65524, 65524, 65524, 1441783, 2752500, 2686964, 65524, 65524, 65524, 2686967, 2686964, 1441783, 1834996, 2818036, 65524, 65524, 65524, 2818038, 1179637, 1310710, 1900532, 2818036, 65524, 393204, 65524, 2818038, 327669, -1, 1900532, 2818036, 65524, 65524, 65524, 2818038, 524277, -1, 1900532, 2818036, 65524, 65524, 65524, 2818038, 131061, -1, 1900532, 2818036, 65524, 65524, 65524, 2818038, 1179636, 1507316, 1900532, 2818036, 65524, 393204, 65524, 2686966, 2686965, 1441783</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-1, 0</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>458753, -1, 65539, 2752512, 0, 0, -1, -1, 458753, -1, 65539, 2752512, 0, 0, 0, 0, 65537, -1, 262147, 2752512, 0, 0, 327680, 0, 65537, -1, 65539, 2752512, 327680, 327680, 0, 0, 65537, -1, 458755, 2752512, 0, 0, 0, 0, 65537, -1, 65539, 2555904, 2686976, 2686976, 2686976, 2686976, 65537, -1, 131074, 65538, 65538, 65538, 65538, 65538, 458753, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">1, 0</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>0, 0, 0, 2752514, 65537, 65551, 2752524, 12, 0, 0, 0, 2752514, 65537, 262159, 2752524, 12, 0, 0, 0, 2752514, 65537, 65551, 2752524, 12, 0, 0, 0, 2752514, 458753, 65551, 2555916, 2686988, 0, 327680, 0, 2752514, 262145, 196622, 65550, 65550, 0, 0, 327680, 2752514, 262145, -1, -1, -1, 327680, 0, 0, 2752514, 1114112, 1441792, 1507332, 1441800, 0, 0, 327680, 2621442, 2621441, 1376259, 1376263, 1376267</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-4, -2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, 131063, 1900532, 2752501, 65524, 393204, 65524, 393204, -1, 131063, 1900532, 2621428, 2752500, 2752500, 2752500, 2752500, -1, 131063, 1834996, 1638388, 1769460, 1769460, 1769460, 1769460, -1, 196598, 131062, 131062, 131062, 131062, 131062, 1179638, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 524279, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 131063</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-2, 0</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, 262147, 2752512, 0, 0, 0, 2752514, -1, -1, 262147, 2752512, 0, 0, 0, 2752514, -1, -1, 65539, 2752512, 0, 327680, 0, 2752514, -1, -1, 458755, 2752512, 0, 0, 0, 2752514, -1, -1, 262147, 2752512, 0, 0, 0, 2752514, -1, -1, 262147, 2752512, 0, 0, 0, 2752514, 1572856, 1507324, 1114115, 2752512, 327680, 0, 0, 2752514, 1441787, 1441791, 2621442, 2621441, 0, 0, 0, 2752514</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">2, 0</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>12, 12, 12, 12, 12, 2752526, 1835020, 458765, 12, 327692, 12, 327692, 12, 2752526, 1900556, 65549, 12, 12, 12, 12, 12, 2752526, 1900556, 65549, 2686988, 2621452, 12, 12, 12, 2752526, 1835020, 262157, 1114126, 2752524, 12, 327692, 12, 2752526, 1835020, 65549, 65551, 2752524, 12, 12, 12, 2752526, 1835020, 262157, 1114127, 2752524, 12, 12, 12, 2752526, 1835020, 262157, 2621454, 2621453, 12, 12, 12, 2752526, 1900556, 65549</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-3, 0</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1900532, 2818036, 65524, 65524, 65524, 2818038, 131061, -1, 1900532, 2818036, 65524, 393204, 65524, 2818038, 327669, -1, 1966068, 2818036, 65524, 65524, 65524, 2818038, 131061, -1, 1966068, 2818036, 65524, 65524, 65524, 2818038, 327669, -1, 1966068, 2818036, 65524, 65524, 393204, 2818038, 131061, -1, 1966068, 2818036, 393204, 65524, 65524, 2818038, 524277, -1, 1966068, 2818036, 65524, 65524, 65524, 2818038, 1179636, 1507316, 1900532, 2818036, 65524, 65524, 65524, 2686966, 2686965, 1441783</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-4, 0</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 131063</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">2, -3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 262156, 65548, 65548, 458764, 65548, 65548, 262156, 131084, 1638412, 2097164, 1638412, 1638412, 1638412, 1638412, 1769484, 262157, 1638412, 2097164, 1638412, 2097164, 1638412, 2162700, 1835020, 458765, 1638412, 2031628, 1638412, 2162700, 1638412, 1638412, 1900556, 262157</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">1, -3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 65536, 262144, 458752, 65536, 262144, 1441792, 1507332, 1441800, 393217, -1, 1638400, 1638400, 1638400, 1376259, 1376263, 1376267, -1, -1, 1638400, 2162688, 1638400, 1376259, 1376263, 1376267, -1, -1, 2097152, 1638400, 1638400, 1376259, 1376263, 1376267</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-4, 1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 262134, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">2, -1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>12, 12, 12, 12, 327692, 2752526, 1900556, 65549, 12, 327692, 12, 12, 327692, 2752526, 1835020, 65549, 12, 12, 12, 327692, 12, 2752526, 1900556, 65549, 2621455, 2621452, 12, 12, 12, 2752526, 1900556, 262157, 1114126, 2752524, 12, 12, 12, 2752526, 1769484, 458765, 262159, 2752524, 12, 327692, 12, 2752526, 1835020, 65549, 1114127, 2752524, 12, 12, 12, 2752526, 1835020, 65549, 2686990, 2621453, 12, 12, 12, 2752526, 1835020, 65549</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">0, -3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 65536, 458752, 262144, 262144, 262144, 262144, 65536, 458752, 2031616, 2097152, 2097152, 393217, -1, 1638400, 1638400, 2162688, 1638400, 1638400, 2097152, -1, -1, 2162688, 1638400, 1638400, 1638400, 1638400, 1638400, -1, -1, 1638400, 1638400, 2162688</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-3, 1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1966068, 2818036, 393204, 65524, 65524, 393204, 65524, 1441783, 1966068, 2818036, 65524, 65524, 65524, 65524, 65524, 1441783, 1966068, 2818036, 65524, 65524, 65524, 393204, 65524, 1441783, 1834996, 2621428, 2752500, 2752500, 2752500, 2752500, 2686964, 1441783, 131062, 131062, 131062, 131062, 131062, 131062, 524278, 1310710, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">1, -1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>0, 0, 327680, 327680, 0, 1376259, 1376263, 1376267, 0, 0, 0, 327680, 0, 1376259, 1376263, 1376267, 0, 0, 0, 0, 0, 1376259, 1376263, 1376267, 0, 0, 0, 2621443, 2621440, 1376259, 1376263, 1376267, 0, 327680, 0, 2752514, 1114113, 1245186, 1310726, 1310730, 0, 0, 0, 2752514, 262145, -1, -1, -1, 0, 0, 0, 2752514, 262145, 196623, 262156, 262156, 0, 327680, 0, 2752514, 65537, 65551, 2555917, 2686990</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-1, -3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 65536, 65536, 262144, 262144, 262144, 65536, 65536, 458752, 1638400, 2162688, 393217, -1, 1638400, 1638400, 1638400, 1638400, 1638400, 1638400, -1, -1, 2097152, 1638400, 1638400, 1638400, 2097152, 1638400, -1, -1, 1638400, 1638400, 1638400, 1638400</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-2, 1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1441787, 1441791, 0, 0, 0, 0, 0, 2752514, 1441787, 1441791, 0, 0, 0, 0, 0, 2621442, 1441787, 1441791, 0, 0, 0, 0, 0, 0, 1441787, 1441791, 2621443, 2621440, 0, 327680, 0, 0, 1376250, 1376254, 1114114, 2752512, 0, 0, 0, 0, -1, -1, 65539, 2555904, 2686976, 2686976, 2686976, 2686976, -1, -1, 131074, 65538, 65538, 65538, 65538, 65538, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">0, -1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>0, 0, 0, 0, 0, 0, 0, 0, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 2621440, 65538, 65538, 262146, 65538, 262146, 65538, 1114114, 2752512, -1, -1, -1, -1, -1, -1, 65539, 2752512, 262144, 65536, 65536, 65536, 131072, -1, 65539, 2752512, 2686978, 2686978, 2686978, 2555906, 65537, -1, 262147, 2752512, -1, 0, 0, 2752514, 1114112, 65536, 1179651, 2752512, -1, 327680, 327680, 2621442, 2686978, 2686978, 2686978, 2621441</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-2, -3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1572856, 1507324, 65536, 262144, 262144, 65536, 262144, 65536, 1441787, 1441791, 1638400, 1638400, 1638400, 393217, -1, 1638400, 1441787, 1441791, 1638400, 1638400, 1638400, -1, -1, 1638400, 1441787, 1441791, 1638400, 1638400, 1638400, -1, -1, 1638400</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">1, 3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, 65551, -1, -1, -1, -1, -1, -1, -1, 262159, -1, -1, -1, -1, -1, -1, -1, 262159, -1, -1, -1, -1, -1, -1, -1, 65551, -1, -1, -1, -1, -1, -1, -1, 458767, -1, -1, -1, -1, -1, -1, -1, 262159, -1, -1, -1, -1, -1, -1, -1, 262159, -1, -1, -1, -1, -1, -1, -1, 65551</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-1, 1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1114112, 262144, 65536, 262144, 458752, 65536, 458752, 65536, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 0, 327680, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 327680, 0, 0, 327680, 0, 0, 0, 0, 0, 0, 0, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 65538, 65538, 65538, 65538, 65538, 65538, 65538, 65538, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-1, -1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>0, 0, 0, 0, 0, 0, 0, 0, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 1179649, 65538, 262146, 65538, 65538, 65538, 262146, 65538, 65537, -1, -1, -1, -1, -1, -1, -1, 65537, -1, 131075, 65536, 262144, 262144, 65536, 65536, 65537, -1, 458755, 2555905, 2686978, 2686978, 2686978, 2686978, 262145, -1, 65539, 2752512, 0, 0, -1, -1, 65537, -1, 458755, 2752512, 0, 0, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-3, -3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 131060, 131060, 131060, 131060, 131060, 327668, 131060, 1507316, 2752502, 2752502, 2752502, 2752502, 2752502, 2752502, 2686965, 1441783, 393204, 65524, 393204, 65524, 65524, 65524, 65524, 1441783, 65524, 65524, 65524, 65524, 393204, 65524, 65524, 1441783</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">2, 3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1835020, 2752524, 12, 12, 12, 2752526, 1835020, 458765, 1900556, 2752524, 12, 327692, 327692, 2752526, 1835020, 65549, 1835020, 2752524, 12, 12, 327692, 2752526, 1835020, 65549, 1900556, 2752524, 327692, 12, 12, 2752526, 1900556, 262157, 1900556, 2752524, 327692, 12, 12, 2752526, 1900556, 262157, 1900556, 2752524, 327692, 12, 12, 2752526, 1835020, 458765, 1900556, 2555916, 2686988, 2686988, 2686988, 2555919, 1900556, 65549, 1769484, 1572876, 1703948, 1703948, 1572876, 1703948, 1769484, 65549</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">0, 1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>65536, 262144, 458752, 262144, 65536, 262144, 1048579, 2752512, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 2621441, 0, 0, 0, 0, 0, 0, 0, 0, 0, 327680, 0, 0, 0, 327680, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 2686976, 65538, 65538, 65538, 65538, 65538, 65538, 65538, 65538, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">1, 1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>0, 0, 0, 0, 0, 1376259, 1376263, 1376267, 0, 0, 0, 0, 0, 1376259, 1376263, 1376267, 0, 0, 0, 0, 0, 1376259, 1376263, 1376267, 0, 0, 327680, 2621443, 2621440, 1376259, 1376263, 1376267, 0, 0, 0, 2752514, 1114113, 1245186, 1310726, 1310730, 2686976, 2686976, 2686976, 2555907, 262145, -1, -1, -1, 65538, 65538, 65538, 65538, 131073, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-4, -3</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 262135, 131060, 131060, 524276, 524276, 524276, 524276, -1, 524279, 1834996, 2621429, 2752502, 2752502, 2752502, 2752502, -1, 524279, 1900532, 2752501, 65524, 393204, 65524, 65524, -1, 131063, 1966068, 2752501, 393204, 65524, 65524, 65524</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-2, -1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1441787, 1441791, 0, 0, 0, 0, 0, 0, 1441787, 1441791, 0, 0, 0, 0, 0, 2621443, 1441787, 1441791, 0, 0, 327680, 0, 0, 2752514, 1441787, 1441791, 2621443, 2621440, 0, 0, 0, 2752514, 1376250, 1376254, 1114114, 2752512, 0, 0, 0, 2752514, -1, -1, 458755, 2752512, 0, 327680, 327680, 2752514, -1, -1, 65539, 2752512, 0, 0, 0, 2752514, -1, -1, 65539, 2752512, 0, 0, 0, 2752514</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">2, 1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>12, 12, 12, 12, 12, 2752526, 1900556, 458765, 12, 12, 327692, 12, 327692, 2752526, 1835020, 65549, 12, 12, 12, 12, 12, 2752526, 1900556, 65549, 2621455, 2621452, 12, 12, 327692, 2752526, 1835020, 65549, 1114126, 2752524, 12, 327692, 12, 2752526, 1769484, 65549, 262159, 2752524, 12, 12, 12, 2752526, 1900556, 262157, 458767, 2752524, 12, 12, 12, 2752526, 1900556, 262157, 458767, 2752524, 12, 327692, 12, 2752526, 1835020, 65549</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-3, -1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1900532, 2818036, 65524, 65524, 65524, 65524, 65524, 1441783, 1900532, 2818036, 65524, 65524, 393204, 393204, 65524, 1441783, 1900532, 2818036, 65524, 65524, 65524, 65524, 65524, 1441783, 1900532, 2818036, 65524, 65524, 65524, 2686967, 2686964, 1441783, 1834996, 2818036, 65524, 65524, 65524, 2818038, 1179637, 1310710, 1900532, 2818036, 65524, 65524, 65524, 2818038, 131061, -1, 1966068, 2818036, 65524, 393204, 65524, 2818038, 524277, -1, 1966068, 2818036, 65524, 65524, 65524, 2818038, 131061, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-4, -1</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, 524279, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 131063</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-4, 2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, 262135, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 131063, -1, -1, -1, -1, -1, -1, -1, 327671, -1, -1, -1, -1, -1, -1, -1, 524279, -1, -1, -1, -1, -1, -1, -1, 262134</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">2, -2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1638412, 1638412, 1638412, 2031628, 1638412, 1638412, 1835020, 262157, 2031628, 1638412, 1638412, 1638412, 2162700, 2162700, 1769484, 65549, 65550, 65550, 65550, 65550, 65550, 65550, 65550, 196621, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 458764, 262156, 458764, 65548, 262156, 262156, 262156, 131084, 2621454, 2686990, 2686990, 2686990, 2686990, 2555918, 1769484, 65549</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-3, 2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>524276, 524276, 524276, 524276, 327668, 327668, 327668, 1507316, 1834996, 2293748, 2293748, 2293748, 2293748, 2293748, 2293748, 1441783, 1900532, 2293748, -1, -1, -1, 2359284, 2293748, 1441783, 1900532, 2424820, -1, -1, -1, 2293748, 2293748, 1441783, 1900532, 2293748, -1, -1, -1, 2293748, 2359284, 1441783, 1966068, 2293748, 2293748, 2424820, 2293748, 2359284, 2293748, 1441783, 1834996, 1638388, 1638388, 1769460, 1638388, 1638388, 1834996, 2031608, 131062, 131062, 131062, 131062, 131062, 131062, 131062, 196597</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">1, -2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, 1638400, 2162688, 1638400, 1376259, 1376263, 1376267, -1, -1, 1638400, 1638400, 1638400, 1376259, 1376263, 1376267, 65538, 65538, 65538, 65538, 65538, 1245186, 1310726, 1310730, -1, -1, -1, -1, -1, -1, -1, -1, 65536, 65536, 458752, 65536, 196608, -1, -1, -1, 2686978, 2686978, 2686978, 2555906, 65537, -1, -1, -1, 327680, 0, 0, 2752514, 1114112, 1441792, 1507332, 1441800, 0, 0, 0, 2621442, 2621441, 1376259, 1376263, 1376267</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-2, 2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1572856, 1507324, 262144, 65536, 65536, 458752, 65536, 262144, 1441787, 1441791, 2228224, 2228224, 2228224, 2359296, 2228224, 2228224, 1441787, 1441791, 2424832, 2228224, 2228224, 2228224, 2228224, 2228224, 1441787, 1441791, 2228224, 2359296, 2359296, 2228224, 2228224, 2228224, 1441787, 1441791, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 1441787, 1441791, 2359296, 2228224, 2228224, 2228224, 2228224, 2359296, 2031612, 1966080, 1769472, 1572864, 1572864, 1703936, 1572864, 1572864, -1, 196610, 65538, 65538, 65538, 65538, 65538, 65538</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">0, -2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1638400, 1638400, 2031616, -1, -1, 1638400, 1638400, 1638400, 1638400, 1638400, 1638400, -1, -1, 1638400, 2097152, 1638400, 65538, 65538, 65538, 65538, 65538, 65538, 65538, 65538, -1, -1, -1, -1, -1, -1, -1, -1, 65536, 65536, 65536, 65536, 458752, 262144, 65536, 65536, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 327680</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">1, 4</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, 196622, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-1, 2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>65536, 65536, 262144, 65536, 65536, 262144, 65536, 262144, 2228224, 2228224, 2228224, 2228224, 2228224, 2359296, 2228224, 2424832, 2228224, 2424832, 2228224, 2228224, 2228224, 2228224, 2359296, 2228224, 2293760, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2359296, 2228224, 2293760, 2228224, 2228224, 2228224, 2359296, 2293760, 2228224, 2228224, 2228224, 2293760, 2293760, 2359296, 2228224, 1703936, 1572864, 1572864, 1769472, 1703936, 1703936, 1703936, 1572864, 65538, 65538, 65538, 65538, 65538, 65538, 65538, 65538</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-1, -2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1638400, 1638400, -1, -1, 1638400, 1638400, 1638400, 1638400, 2097152, 2097152, -1, -1, 1638400, 2162688, 2162688, 1638400, 65538, 65538, 65538, 65538, 65538, 65538, 65538, 65538, -1, -1, -1, -1, -1, -1, -1, -1, 65536, 65536, 458752, 65536, 65536, 65536, 262144, 65536, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 2686978, 0, 0, 0, 0, 0, 0, 0, 0, 0, 327680, 0, 0, 0, 0, 0, 0</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">2, 4</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>65550, 65550, 65550, 65550, 65550, 65550, 65550, 131085, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">0, 2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>65536, 458752, 262144, 65536, 65536, 65536, 458752, 65536, 2228224, 2228224, 2228224, 2293760, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2293760, 2359296, 2228224, 2228224, 2228224, 2359296, 2228224, 2228224, 2359296, 2228224, 2293760, 2228224, 2228224, 2293760, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2228224, 2293760, 2228224, 2228224, 1572864, 1572864, 1572864, 1769472, 1572864, 1572864, 1572864, 1703936, 65538, 65538, 65538, 65538, 65538, 65538, 65538, 65538</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-2, -2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1441787, 1441791, 1638400, 1638400, 1638400, -1, -1, 1638400, 1441787, 1441791, 1638400, 1638400, 2031616, -1, -1, 1638400, 1376250, 1376254, 65538, 65538, 65538, 65538, 65538, 65538, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 196611, 458752, 458752, 65536, 65536, 262144, -1, -1, 65539, 2555905, 2686978, 2686978, 2686978, 2686978, 1572856, 1507324, 1114115, 2752512, 0, 0, 0, 327680, 1441787, 1441791, 2621442, 2621441, 0, 327680, 0, 0</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">1, 2</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>458752, 65536, 65536, 262144, 262144, 1441792, 1507332, 1441800, 2228224, 2228224, 2228224, 2228224, 2228224, 1376259, 1376263, 1376267, 2228224, 2228224, 2228224, 2228224, 2228224, 1376259, 1376263, 1376267, 2359296, 2228224, 2228224, 2293760, 2228224, 1376259, 1376263, 1376267, 2228224, 2359296, 2228224, 2228224, 2228224, 1376259, 1376263, 1376267, 2228224, 2228224, 2228224, 2228224, 2293760, 1376259, 1376263, 1376267, 1703936, 1703936, 1572864, 1703936, 1769472, 1966084, 1966088, 1966092, 65538, 65538, 65538, 65538, 65538, 131073, -1, 262159</values>
+      </value>
+    </cells>
+  </tiles>
+  <tileConfigs>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Cobblestone 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor Edge/02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor Edge/Corner Out 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor Edge/Corner Out 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor Edge/03</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Cobblestone 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Traps and Hazards/Floor/Spike/5x2</name>
+        <arguments>
+          <key class="java.lang.String">Cycle</key>
+          <value class="com.threerings.projectx.dungeon.config.DungeonActorConfig$Trap$Cycle">A</value>
+          <key class="java.lang.String">Tag</key>
+          <value class="java.lang.String"><!--empty--></value>
+        </arguments>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor Edge/01</name>
+      </tile>
+    </entry>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor Edge/Corner In 03</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor Edge/Corner In 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor Edge/Corner In 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Stairs/Edge, stair L 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Stairs/Edge, stair L 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Stairs/stair 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Stairs/Edge, stair R 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Stairs/Edge, stair R 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Wall/Thin, horizontal A01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Tile, light A</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Wall/Thin, horizontal B01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Wall/Column 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Wall/Thin, vertical B01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Wall/Thin, vertical A01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Stairs/Wall, stair L01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Tile, light D</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Tile, light C</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Tile, light B</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Tile, dark A</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Tile, dark C</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Tile, dark B</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Tile, dark D</name>
+      </tile>
+    </entry>
+    <entry/>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Wall runner corner IN 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Wall runner corner OUT 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Wall runner front, 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Castle/Floor/Wall runner side, 01</name>
+      </tile>
+    </entry>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+    <entry/>
+  </tileConfigs>
+  <sceneId>245</sceneId>
+  <name>%dungeon:m.lost_castle_spiral_court</name>
+  <version>283</version>
+  <entries>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1536</id>
+      <placeable id="5">
+        <name>Character/Monster/Generic/Single Spawn</name>
+        <arguments>
+          <key class="java.lang.String">Spawn Table</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Monster/Single Family/Slime/Jelly Cube</name>
+            <arguments>
+              <key class="java.lang.String">Tag</key>
+              <value class="java.lang.String">(Wave Tag)</value>
+            </arguments>
+          </value>
+          <key class="java.lang.String">Spawn Tag</key>
+          <value class="java.lang.String">spawn 1a</value>
+          <key class="java.lang.String">Wave Number</key>
+          <value class="java.lang.String">1a</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>1.5, 12.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2048</id>
+      <placeable id="1">
+        <name>Dynamic/Block/Crystal/Gold</name>
+      </placeable>
+      <transform>
+        <translation>-6.5, -18.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2049</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-6.5, -17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2050</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-6.5, -16.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1539</id>
+      <placeable id="2">
+        <name>Dynamic/Block/Breakable/Castle</name>
+      </placeable>
+      <transform>
+        <translation>-2.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2051</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-6.5, -15.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1540</id>
+      <placeable id="4">
+        <name>Dynamic/Block/Stone</name>
+      </placeable>
+      <transform>
+        <translation>-3.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2052</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-6.5, -14.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1541</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-3.5, -8.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2053</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-7.5, -14.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1542</id>
+      <placeable id="3">
+        <name>Dynamic/Block/Explosive</name>
+      </placeable>
+      <transform>
+        <translation>-2.5, -8.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2054</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-7.5, -15.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1543</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-3.5, -9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2055</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-7.5, -16.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1544</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>-2.5, -9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2056</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-7.5, -17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1545</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-0.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2057</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>5.5, -14.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2058</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>5.5, -15.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2059</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>5.5, -16.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1548</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-1.5, -9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2060</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>5.5, -17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1549</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-0.5, -9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2061</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>5.5, -18.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1550</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>-0.5, -8.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2062</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>6.5, -18.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2063</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>7.5, -18.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1552</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-2.5, -7.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2064</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>7.5, -17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1553</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-3.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2065</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>6.5, -17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1554</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-3.5, -7.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2066</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>6.5, -16.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1555</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-0.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2067</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>6.5, -15.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1556</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-1.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2068</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>6.5, -14.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2069</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>7.5, -14.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1558</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>1.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2070</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>7.5, -15.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1559</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>0.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2071</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>7.5, -16.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1048</id>
+      <placeable>
+        <name>Dynamic/Door/Iron Gate/Energy 5</name>
+      </placeable>
+      <transform>
+        <translation>19.5, 22.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2072</id>
+      <sceneGlobal>
+        <name>Environment/Background Color</name>
+        <arguments>
+          <key class="java.lang.String">Color</key>
+          <value class="com.threerings.opengl.renderer.Color4f">0.16470589, 0.09803922, 0.07450981, 1.0</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1561</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>0.5, -8.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2073</id>
+      <sceneGlobal>
+        <name>Environment/Fog</name>
+        <arguments>
+          <key class="java.lang.String">State</key>
+          <value class="com.threerings.opengl.renderer.config.FogStateConfig$Linear">
+            <color>0.12941177, 0.101960786, 0.10980392, 0.0</color>
+            <start>12.0</start>
+            <end>30.0</end>
+          </value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1562</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>0.5, -9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2074</id>
+      <sceneGlobal>
+        <name>Environment/Ambient</name>
+        <arguments>
+          <key class="java.lang.String">Color</key>
+          <value class="com.threerings.opengl.renderer.Color4f">0.2509804, 0.17254902, 0.14509805, 1.0</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2075</id>
+      <sceneGlobal>
+        <name>Environment/Light</name>
+        <arguments>
+          <key class="java.lang.String">Light</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Directional">
+            <colors>
+              <diffuse>0.0627451, 0.24313726, 0.24313726, 1.0</diffuse>
+            </colors>
+            <direction>-0.9240239, 0.2649601, 0.2756373</direction>
+          </value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1564</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2076</id>
+      <sceneGlobal>
+        <name>Environment/Light</name>
+        <arguments>
+          <key class="java.lang.String">Light</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Directional">
+            <colors>
+              <diffuse>0.32941177, 0.14901961, 0.11764706, 1.0</diffuse>
+            </colors>
+            <direction>0.39713192, -0.8516504, 0.34202012</direction>
+          </value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1565</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, -8.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2077</id>
+      <sceneGlobal>
+        <name>Environment/Music Mix</name>
+        <arguments>
+          <key class="java.lang.String">Cross Fade</key>
+          <value class="java.lang.Float">0.0</value>
+          <key class="java.lang.String">Files</key>
+          <value class="[Lcom.threerings.openal.config.SounderConfig$WeightedFile;">
+            <entry>
+              <file>sound/music/castle_ambient.ogg</file>
+              <weight>2.0</weight>
+            </entry>
+            <entry>
+              <file>sound/music/castle_action.ogg</file>
+            </entry>
+          </value>
+          <key class="java.lang.String">Gain</key>
+          <value class="java.lang.Float">0.15</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1566</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>0.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2078</id>
+      <sceneGlobal>
+        <name>Environment/Model</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>world/skybox/castle_base/model.dat</name>
+            <arguments>
+              <key class="java.lang.String">Translation Origin</key>
+              <value class="com.threerings.math.Vector3f">0.0, 0.0, 0.0</value>
+              <key class="java.lang.String">Translation Scale</key>
+              <value class="com.threerings.math.Vector3f">0.1, 0.05, 0.1</value>
+            </arguments>
+          </value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1567</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>1.5, -7.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2079</id>
+      <sceneGlobal>
+        <name>Environment/Model</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value/>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1568</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>0.5, -7.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2080</id>
+      <sceneGlobal>
+        <name>Camera</name>
+        <arguments>
+          <key class="java.lang.String">Coords</key>
+          <value class="com.threerings.math.SphereCoords">0.0, 0.7853982, 9.99</value>
+          <key class="java.lang.String">FOV</key>
+          <value class="java.lang.Float">1.0471976</value>
+          <key class="java.lang.String">Far</key>
+          <value class="java.lang.Float">100.0</value>
+          <key class="java.lang.String">Near</key>
+          <value class="java.lang.Float">1.0</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1569</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>1.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2081</id>
+      <sceneGlobal>
+        <name>Environment/Shadow Color</name>
+        <arguments>
+          <key class="java.lang.String">Color</key>
+          <value class="com.threerings.opengl.renderer.Color4f">0.10980392, 0.03137255, 0.03137255, 0.4</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1570</id>
+      <placeable ref="5"/>
+      <transform>
+        <translation>1.5, -7.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>2082</id>
+      <sceneGlobal>
+        <name>Environment/Skybox</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>world/skybox/visionfog/skybox.dat</name>
+            <arguments>
+              <key class="java.lang.String">Color</key>
+              <value class="com.threerings.opengl.renderer.Color4f">0.0, 0.0, 0.0, 1.0</value>
+              <key class="java.lang.String">Mode</key>
+              <value class="java.lang.String">Ground Fog</value>
+            </arguments>
+          </value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1571</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>2.5, -7.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2083</id>
+      <placeable id="6">
+        <name>Character/Monster/Generic/Single Spawn</name>
+        <arguments>
+          <key class="java.lang.String">Spawn Table</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Monster/Single Family/Undead/Scaled - Hurkat</name>
+            <arguments>
+              <key class="java.lang.String">Depth Offset</key>
+              <value class="java.lang.Integer">0</value>
+              <key class="java.lang.String">Tag</key>
+              <value class="java.lang.String">(Wave Tag)</value>
+            </arguments>
+          </value>
+          <key class="java.lang.String">Spawn Tag</key>
+          <value class="java.lang.String">spawn 1d</value>
+          <key class="java.lang.String">Wave Number</key>
+          <value class="java.lang.String">1d</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-8.5, 18.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.7071066</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1572</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2084</id>
+      <placeable ref="6"/>
+      <transform>
+        <translation>-8.5, 20.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.7071066</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1573</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, -9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2085</id>
+      <placeable ref="6"/>
+      <transform>
+        <translation>6.5, 19.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710677, -0.70710677</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1574</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>-1.5, -7.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2086</id>
+      <placeable ref="6"/>
+      <transform>
+        <translation>7.5, 20.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710677, -0.70710677</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2087</id>
+      <placeable ref="6"/>
+      <transform>
+        <translation>7.5, 18.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710677, -0.70710677</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2088</id>
+      <placeable id="7">
+        <name>Character/Monster/Generic/Single Spawn</name>
+        <arguments>
+          <key class="java.lang.String">Spawn Table</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Monster/Single Family/Slime/Scaled - Jelly Cube</name>
+            <arguments>
+              <key class="java.lang.String">Depth Offset</key>
+              <value class="java.lang.Integer">0</value>
+              <key class="java.lang.String">Wave Tag</key>
+              <value class="java.lang.String">(Wave Tag)</value>
+            </arguments>
+          </value>
+          <key class="java.lang.String">Spawn Tag</key>
+          <value class="java.lang.String">spawn 1a</value>
+          <key class="java.lang.String">Wave Number</key>
+          <value class="java.lang.String">1a</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-0.5, 10.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1577</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>1.5, 11.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2089</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>0.5, 11.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1578</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-1.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2090</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>1.5, 13.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1579</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-0.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2091</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>-2.5, 13.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1580</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, 10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2092</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>-2.5, 11.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1581</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>0.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2093</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>1.5, 9.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.7071069, 0.7071067</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1582</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>-1.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2094</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>-0.5, -7.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2095</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>-2.5, -6.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1584</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>0.5, 10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2096</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>-1.5, -8.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1585</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>1.5, 10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2097</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>-1.5, -10.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1586</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>0.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2098</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>1.5, -9.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2099</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>1.5, -8.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2100</id>
+      <placeable id="8">
+        <name>Character/Monster/Generic/Single Spawn</name>
+        <arguments>
+          <key class="java.lang.String">Spawn Table</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Monster/Single Family/Slime/Scaled - Jelly Cube</name>
+            <arguments>
+              <key class="java.lang.String">Depth Offset</key>
+              <value class="java.lang.Integer">0</value>
+              <key class="java.lang.String">Wave Tag</key>
+              <value class="java.lang.String">(Wave Tag)</value>
+            </arguments>
+          </value>
+          <key class="java.lang.String">Spawn Tag</key>
+          <value class="java.lang.String">spawn 1c</value>
+          <key class="java.lang.String">Wave Number</key>
+          <value class="java.lang.String">1c</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>1.5, -15.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2101</id>
+      <placeable ref="8"/>
+      <transform>
+        <translation>1.5, -17.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2102</id>
+      <placeable ref="8"/>
+      <transform>
+        <translation>0.5, -17.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2103</id>
+      <placeable ref="8"/>
+      <transform>
+        <translation>-1.5, -17.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1592</id>
+      <placeable>
+        <name>Dynamic/Switch/Button/One-Time</name>
+        <arguments>
+          <key class="java.lang.String">Actor</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Dynamic/Switch/Button/One-Time</name>
+            <arguments>
+              <key class="java.lang.String">(On Signal)</key>
+              <value class="java.lang.String">open</value>
+              <key class="java.lang.String">(On Tag)</key>
+              <value class="java.lang.String">door 1a</value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-0.5, -8.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2104</id>
+      <placeable ref="8"/>
+      <transform>
+        <translation>-2.5, -17.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2105</id>
+      <placeable ref="8"/>
+      <transform>
+        <translation>-2.5, -15.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.70710695</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2106</id>
+      <placeable ref="8"/>
+      <transform>
+        <translation>-1.5, -15.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2107</id>
+      <placeable id="9">
+        <name>Character/Monster/Generic/Single Spawn</name>
+        <arguments>
+          <key class="java.lang.String">Spawn Table</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Monster/Single Family/Undead/Scaled - Spookat</name>
+            <arguments>
+              <key class="java.lang.String">Depth Offset</key>
+              <value class="java.lang.Integer">0</value>
+              <key class="java.lang.String">Tag</key>
+              <value class="java.lang.String">(Wave Tag)</value>
+            </arguments>
+          </value>
+          <key class="java.lang.String">Spawn Tag</key>
+          <value class="java.lang.String">spawn 1b</value>
+          <key class="java.lang.String">Wave Number</key>
+          <value class="java.lang.String">1b</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-26.5, -17.5, -1.5</translation>
+        <rotation>0.0, 0.0, 0.70710665, 0.70710695</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2108</id>
+      <placeable ref="9"/>
+      <transform>
+        <translation>-26.5, -15.5, -1.5</translation>
+        <rotation>0.0, 0.0, 0.70710665, 0.70710695</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1597</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>3.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2109</id>
+      <placeable id="10">
+        <name>Character/Monster/Generic/Single Spawn</name>
+        <arguments>
+          <key class="java.lang.String">Spawn Table</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Monster/Single Family/Undead/Scaled - Hurkat</name>
+            <arguments>
+              <key class="java.lang.String">Depth Offset</key>
+              <value class="java.lang.Integer">0</value>
+              <key class="java.lang.String">Tag</key>
+              <value class="java.lang.String">(Wave Tag)</value>
+            </arguments>
+          </value>
+          <key class="java.lang.String">Spawn Tag</key>
+          <value class="java.lang.String">spawn 1b</value>
+          <key class="java.lang.String">Wave Number</key>
+          <value class="java.lang.String">1b</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-19.5, -0.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1598</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>3.5, -7.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2110</id>
+      <placeable ref="10"/>
+      <transform>
+        <translation>-21.5, -0.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1599</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>3.5, -9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1600</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>3.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2112</id>
+      <placeable ref="10"/>
+      <transform>
+        <translation>-19.5, 4.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1601</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-4.5, -7.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1602</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-4.5, -8.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2114</id>
+      <placeable ref="10"/>
+      <transform>
+        <translation>-21.5, 4.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1603</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-4.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1604</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>-4.5, -9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1605</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-4.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1606</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>3.5, -8.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1607</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>3.5, 10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1608</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-4.5, 11.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1609</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>3.5, 11.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1610</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>3.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1611</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>3.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1612</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-4.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1613</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-4.5, 10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1614</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-4.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1615</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-4.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1616</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>3.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2132</id>
+      <placeable id="11">
+        <name>Dynamic/Door/Iron Gate/Trigger 5</name>
+        <arguments>
+          <key class="java.lang.String">Open</key>
+          <value class="java.lang.Boolean">false</value>
+          <key class="java.lang.String">Tag</key>
+          <value class="java.lang.String">door 2f</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>9.5, -1.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2133</id>
+      <placeable ref="11"/>
+      <transform>
+        <translation>9.5, 4.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2134</id>
+      <placeable>
+        <name>Dynamic/Switch/Party Platform/Base</name>
+        <arguments>
+          <key class="java.lang.String">Action</key>
+          <value class="com.threerings.tudey.config.ActionConfig$Compound">
+            <actions>
+              <entry class="com.threerings.tudey.config.ActionConfig$Signal">
+                <name>open</name>
+                <target class="com.threerings.tudey.config.TargetConfig$Tagged">
+                  <tag>door 2f</tag>
+                </target>
+              </entry>
+              <entry class="com.threerings.tudey.config.ActionConfig$Signal">
+                <name>activate</name>
+                <target class="com.threerings.tudey.config.TargetConfig$Tagged">
+                  <tag>spawn 1a</tag>
+                </target>
+              </entry>
+            </actions>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>9.5, 1.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2135</id>
+      <placeable id="12">
+        <name>Character/Monster/Generic/Single Spawn</name>
+        <arguments>
+          <key class="java.lang.String">Spawn Table</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Monster/Single Family/Undead/Scaled - Bloogato</name>
+            <arguments>
+              <key class="java.lang.String">Depth Offset</key>
+              <value class="java.lang.Integer">0</value>
+              <key class="java.lang.String">Tag</key>
+              <value class="java.lang.String">(Wave Tag)</value>
+            </arguments>
+          </value>
+          <key class="java.lang.String">Spawn Tag</key>
+          <value class="java.lang.String">spawn 1a</value>
+          <key class="java.lang.String">Wave Number</key>
+          <value class="java.lang.String">1a</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>15.5, 2.5, 1.5</translation>
+        <rotation>0.0, 0.0, 0.70710665, 0.70710695</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2136</id>
+      <placeable ref="12"/>
+      <transform>
+        <translation>15.5, 0.5, 1.5</translation>
+        <rotation>0.0, 0.0, 0.70710665, 0.7071069</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2150</id>
+      <placeable id="13">
+        <name>Dynamic/Block/Mineral/Class {tb}/Generic Mineral</name>
+      </placeable>
+      <transform>
+        <translation>-27.5, -18.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2151</id>
+      <placeable ref="13"/>
+      <transform>
+        <translation>-28.5, -15.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2152</id>
+      <placeable ref="13"/>
+      <transform>
+        <translation>21.5, -14.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2153</id>
+      <placeable ref="13"/>
+      <transform>
+        <translation>18.5, -14.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2154</id>
+      <placeable ref="13"/>
+      <transform>
+        <translation>19.5, -18.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2157</id>
+      <placeable id="14">
+        <name>Dynamic/Breakable Objects/Castle/Brazier, ground</name>
+      </placeable>
+      <transform>
+        <translation>-4.5, 5.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2159</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>-4.5, -2.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2160</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>3.5, -2.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2161</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>3.5, 5.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1654</id>
+      <placeable>
+        <name>Dynamic/Door/Iron Gate/Trigger 5</name>
+        <arguments>
+          <key class="java.lang.String">Open</key>
+          <value class="java.lang.Boolean">false</value>
+          <key class="java.lang.String">Tag</key>
+          <value class="java.lang.String">door 3a</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>19.5, 12.5, 1.5</translation>
+        <rotation>0.0, 0.0, -1.0, 5.5233505E-7</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2167</id>
+      <placeable>
+        <name>Dynamic/Elevator/Start Platform</name>
+      </placeable>
+      <transform>
+        <translation>-0.5, -0.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2168</id>
+      <placeable>
+        <name>Dynamic/Misc/Arsenal/Arsenal Zone</name>
+      </placeable>
+      <transform>
+        <translation>-0.5, 5.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1659</id>
+      <placeable id="15">
+        <name>Dynamic/Block/Unbreakable/Castle</name>
+      </placeable>
+      <transform>
+        <translation>-22.5, -8.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2171</id>
+      <placeable>
+        <name>Dynamic/Barrier/One-Way/Force Field x5</name>
+      </placeable>
+      <transform>
+        <translation>6.5, 1.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.7071067, 0.7071068</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1660</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -7.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2172</id>
+      <placeable id="16">
+        <name>Dynamic/Block/Treasure/Normal</name>
+      </placeable>
+      <transform>
+        <translation>18.5, -15.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1661</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-22.5, -12.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2173</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>-19.5, 8.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1662</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-22.5, -11.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2174</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>20.5, -17.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1663</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-22.5, -10.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2175</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>20.5, -15.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2176</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>-21.5, 8.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1664</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -9.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2177</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>-21.5, 10.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2178</id>
+      <placeable id="17">
+        <name>Dynamic/Block/Treasure/Rare</name>
+      </placeable>
+      <transform>
+        <translation>20.5, 26.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2179</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>19.5, -0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2180</id>
+      <placeable ref="17"/>
+      <transform>
+        <translation>18.5, 26.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1668</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-21.5, 2.5, -1.5</translation>
+        <rotation>0.0, 0.0, 8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2181</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>18.5, -17.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1669</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-20.5, 2.5, -1.5</translation>
+        <rotation>0.0, 0.0, 8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2182</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>19.5, 3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1670</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-19.5, 2.5, -1.5</translation>
+        <rotation>0.0, 0.0, 8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2183</id>
+      <placeable ref="16"/>
+      <transform>
+        <translation>-19.5, 10.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1170</id>
+      <placeable>
+        <name>Dynamic/Door/Iron Gate/Trigger 5</name>
+        <arguments>
+          <key class="java.lang.String">Open</key>
+          <value class="java.lang.Boolean">false</value>
+          <key class="java.lang.String">Tag</key>
+          <value class="java.lang.String">door 1c</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>16.5, -16.5, 1.5</translation>
+        <rotation>0.0, 0.0, 0.7071069, 0.7071067</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1172</id>
+      <placeable>
+        <name>Dynamic/Door/Iron Gate/Trigger 5</name>
+        <arguments>
+          <key class="java.lang.String">Open</key>
+          <value class="java.lang.Boolean">false</value>
+          <key class="java.lang.String">Tag</key>
+          <value class="java.lang.String">door 1a</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-13.5, -6.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.7071069, 0.7071067</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1173</id>
+      <placeable>
+        <name>Dynamic/Door/Iron Gate/Trigger 5</name>
+        <arguments>
+          <key class="java.lang.String">Open</key>
+          <value class="java.lang.Boolean">false</value>
+          <key class="java.lang.String">Tag</key>
+          <value class="java.lang.String">door 2a</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-13.5, 9.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.7071069, 0.7071067</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1688</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-22.5, -13.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>667</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, 6.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>668</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-19.5, 6.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>669</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-20.5, 6.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>670</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-21.5, 6.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>671</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, 6.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1696</id>
+      <placeable>
+        <name>Character/Monster/Generic/Single Spawn</name>
+        <arguments>
+          <key class="java.lang.String">Spawn Table</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Monster/Single Family/Undead/Scaled - Bloogato</name>
+            <arguments>
+              <key class="java.lang.String">Depth Offset</key>
+              <value class="java.lang.Integer">0</value>
+              <key class="java.lang.String">Tag</key>
+              <value class="java.lang.String">(Wave Tag)</value>
+            </arguments>
+          </value>
+          <key class="java.lang.String">Spawn Tag</key>
+          <value class="java.lang.String">spawn 1b</value>
+          <key class="java.lang.String">Wave Number</key>
+          <value class="java.lang.String">1b</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-25.5, -16.5, -1.5</translation>
+        <rotation>0.0, 0.0, 0.70710665, 0.70710695</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>677</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, 5.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>678</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, 4.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>679</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, 3.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>680</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, 2.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>681</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, 1.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>682</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, 0.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>683</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, -0.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>684</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, -1.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>685</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-18.5, -2.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>687</id>
+      <placeable id="19">
+        <name>Dynamic/Block/Ghost</name>
+      </placeable>
+      <transform>
+        <translation>-18.5, -3.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1716</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-23.5, -14.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>693</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, 1.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1717</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-22.5, -14.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>694</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, 2.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1718</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-22.5, -15.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>695</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, 3.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1719</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-23.5, -15.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>696</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, 4.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1720</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-23.5, -16.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>697</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, 5.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1721</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-22.5, -16.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1722</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-22.5, -17.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1723</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-23.5, -17.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1724</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-23.5, -18.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1725</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-22.5, -18.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1729</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-19.5, -3.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1730</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-20.5, -3.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1731</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-21.5, -3.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1732</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-21.5, -2.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1733</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-20.5, -2.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1734</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-19.5, -2.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1739</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-21.5, 1.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1740</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-20.5, 1.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1741</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-19.5, 1.5, -1.5</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>758</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, 0.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>759</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -0.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>760</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -1.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>761</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -2.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>762</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -3.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>763</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -4.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>764</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -5.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>765</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-22.5, -6.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1841</id>
+      <placeable id="18">
+        <name>Dynamic/Misc/Respawn Pad</name>
+        <arguments>
+          <key class="java.lang.String">Actor</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Dynamic/Lift Objects/Clay Pot</name>
+          </value>
+          <key class="java.lang.String">Delay</key>
+          <value class="java.lang.Integer">5000</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-18.5, -10.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1329</id>
+      <placeable>
+        <name>Dynamic/Switch/Button/One-Time</name>
+        <arguments>
+          <key class="java.lang.String">Actor</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Dynamic/Switch/Button/One-Time</name>
+            <arguments>
+              <key class="java.lang.String">(On Signal)</key>
+              <value class="java.lang.String">open</value>
+              <key class="java.lang.String">(On Tag)</key>
+              <value class="java.lang.String">door 2a</value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-20.5, 9.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1842</id>
+      <placeable ref="18"/>
+      <transform>
+        <translation>-18.5, -12.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1884</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-3.5, -14.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1885</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-3.5, -15.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1887</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-3.5, -17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1888</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-3.5, -18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1889</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, -18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1890</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, -17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1892</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, -15.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1893</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, -14.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1894</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-2.5, -18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1895</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-1.5, -18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1896</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-0.5, -18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1897</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>0.5, -18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1898</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>1.5, -18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1899</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-2.5, -14.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1900</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-1.5, -14.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1901</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-0.5, -14.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1902</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>0.5, -14.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1903</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>1.5, -14.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1904</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-0.5, -15.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1906</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-0.5, -17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1907</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-2.5, -16.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1908</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-1.5, -16.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1397</id>
+      <placeable>
+        <name>Lights/Point Light</name>
+        <arguments>
+          <key class="java.lang.String">Attenuation</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Attenuation">
+            <constant>0.6</constant>
+            <quadratic>0.6</quadratic>
+          </value>
+          <key class="java.lang.String">Diffuse</key>
+          <value class="com.threerings.opengl.renderer.Color4f">1.0, 0.8, 0.2, 1.0</value>
+          <key class="java.lang.String">Extent</key>
+          <value class="java.lang.Float">12.0</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-20.5, 19.5, 0.0</translation>
+        <rotation>0.0, 0.0, -1.0, 5.5233505E-7</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1910</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>0.5, -16.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1398</id>
+      <placeable>
+        <name>Dynamic/Elevator/Next Floor</name>
+      </placeable>
+      <transform>
+        <translation>-20.5, 19.5, -1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1911</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>1.5, -16.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$AreaEntry">
+      <id>1913</id>
+      <area>
+        <name>Player Enter/Spawn Activate</name>
+        <arguments>
+          <key class="java.lang.String">Trigger Action</key>
+          <value class="com.threerings.tudey.config.ActionConfig$Signal">
+            <name>activate</name>
+            <target class="com.threerings.tudey.config.TargetConfig$Tagged">
+              <tag>spawn 1c</tag>
+            </target>
+          </value>
+        </arguments>
+      </area>
+      <vertices>
+        <entry>
+          <x>-17.5</x>
+          <y>-14.5</y>
+          <z>-1.5</z>
+        </entry>
+        <entry>
+          <x>-17.5</x>
+          <y>-18.5</y>
+          <z>-1.5</z>
+        </entry>
+        <entry>
+          <x>-21.5</x>
+          <y>-18.5</y>
+          <z>-1.5</z>
+        </entry>
+        <entry>
+          <x>-21.5</x>
+          <y>-14.5</y>
+          <z>-1.5</z>
+        </entry>
+      </vertices>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1919</id>
+      <placeable ref="8"/>
+      <transform>
+        <translation>0.5, -15.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.70710695</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1923</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-0.5, -16.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1924</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-3.5, -16.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1925</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>2.5, -16.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1927</id>
+      <placeable>
+        <name>Dynamic/Switch/Button/One-Time</name>
+        <arguments>
+          <key class="java.lang.String">Actor</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Dynamic/Switch/Button/One-Time</name>
+            <arguments>
+              <key class="java.lang.String">(On Signal)</key>
+              <value class="java.lang.String">open</value>
+              <key class="java.lang.String">(On Tag)</key>
+              <value class="java.lang.String">door 1c</value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-0.5, -16.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1944</id>
+      <placeable id="20">
+        <name>Dynamic/Block/Explosive Timed</name>
+      </placeable>
+      <transform>
+        <translation>-4.5, 17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1945</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-5.5, 17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1946</id>
+      <placeable ref="19"/>
+      <transform>
+        <translation>-4.5, 18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1947</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-5.5, 18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1948</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-3.5, 17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1949</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-3.5, 18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1950</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-4.5, 19.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1951</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-5.5, 19.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1952</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-5.5, 20.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1953</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-4.5, 20.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1954</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-5.5, 21.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1955</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-4.5, 21.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1956</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-3.5, 19.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1957</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-3.5, 20.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1958</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>-3.5, 21.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1959</id>
+      <placeable ref="20"/>
+      <transform>
+        <translation>3.5, 17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1960</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>2.5, 17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1961</id>
+      <placeable ref="19"/>
+      <transform>
+        <translation>3.5, 18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1962</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>2.5, 18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1963</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>4.5, 17.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1964</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>4.5, 18.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1965</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>3.5, 19.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1966</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>2.5, 19.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1967</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>2.5, 20.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1968</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>3.5, 20.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1969</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>2.5, 21.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1970</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>3.5, 21.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1971</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>4.5, 19.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1972</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>4.5, 20.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1973</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>4.5, 21.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1974</id>
+      <placeable>
+        <name>Dynamic/Door/Iron Gate/Trigger 5</name>
+        <arguments>
+          <key class="java.lang.String">Open</key>
+          <value class="java.lang.Boolean">false</value>
+          <key class="java.lang.String">Tag</key>
+          <value class="java.lang.String">door 1d</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-13.5, 19.5, 0.0</translation>
+        <rotation>0.0, 0.0, -0.70710665, 0.70710695</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1975</id>
+      <placeable>
+        <name>Dynamic/Switch/Button/One-Time</name>
+        <arguments>
+          <key class="java.lang.String">Actor</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Dynamic/Switch/Button/One-Time</name>
+            <arguments>
+              <key class="java.lang.String">(On Signal)</key>
+              <value class="java.lang.String">open</value>
+              <key class="java.lang.String">(On Tag)</key>
+              <value class="java.lang.String">door 1d</value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-0.5, 19.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1469</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>17.5, -0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1470</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>17.5, 0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1471</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>17.5, 1.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1472</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>17.5, 2.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1984</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-2.5, 17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>448</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>-3.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1473</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>17.5, 3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1985</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-1.5, 17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>449</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>-2.5, 10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1986</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-0.5, 17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1987</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>0.5, 17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>451</id>
+      <placeable ref="4"/>
+      <transform>
+        <translation>-0.5, 11.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1476</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>16.5, -0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1988</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>1.5, 17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1477</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>15.5, -0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1989</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-2.5, 21.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1478</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>14.5, -0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1990</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-1.5, 21.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>454</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-2.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1479</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>14.5, 0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1991</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-0.5, 21.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>455</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-3.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1480</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>14.5, 1.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1992</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>0.5, 21.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>456</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-3.5, 10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1481</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>14.5, 2.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1993</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>1.5, 21.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1482</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>14.5, 3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1994</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>1.5, 20.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1483</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>15.5, 3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1995</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>1.5, 19.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1484</id>
+      <placeable ref="15"/>
+      <transform>
+        <translation>16.5, 3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1996</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>1.5, 18.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>460</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-1.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1485</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>17.5, -1.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1997</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-2.5, 20.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1486</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>17.5, -2.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1998</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-2.5, 19.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>462</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>-3.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1487</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>17.5, -3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1999</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-2.5, 18.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>463</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-0.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1488</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>18.5, -3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$AreaEntry">
+      <id>2000</id>
+      <area>
+        <name>Player Enter/Spawn Activate</name>
+        <arguments>
+          <key class="java.lang.String">Trigger Action</key>
+          <value class="com.threerings.tudey.config.ActionConfig$Signal">
+            <name>activate</name>
+            <target class="com.threerings.tudey.config.TargetConfig$Tagged">
+              <tag>spawn 1d</tag>
+            </target>
+          </value>
+        </arguments>
+      </area>
+      <vertices>
+        <entry>
+          <x>-1.5</x>
+          <y>20.5</y>
+        </entry>
+        <entry>
+          <x>0.5</x>
+          <y>20.5</y>
+        </entry>
+        <entry>
+          <x>0.5</x>
+          <y>18.5</y>
+        </entry>
+        <entry>
+          <x>-1.5</x>
+          <y>18.5</y>
+        </entry>
+      </vertices>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>464</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-1.5, 10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1489</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>20.5, -3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1490</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, -3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2002</id>
+      <placeable ref="6"/>
+      <transform>
+        <translation>-7.5, 19.5, 0.0</translation>
+        <rotation>0.0, 0.0, 0.70710695, 0.70710665</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1491</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, -2.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>467</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>1.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1492</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, -1.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1493</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>17.5, 6.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>469</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-2.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1494</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>18.5, 6.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>470</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-0.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1495</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>20.5, 6.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>471</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-3.5, 11.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1496</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, 6.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1497</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, 5.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>473</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>0.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1498</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, 4.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>474</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-1.5, 11.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1499</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>17.5, 5.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>475</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1500</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>17.5, 4.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>476</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, 11.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1501</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, -0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>477</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>2.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1502</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, 0.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>478</id>
+      <placeable ref="3"/>
+      <transform>
+        <translation>2.5, 12.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1503</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, 1.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>991</id>
+      <placeable id="21">
+        <name>Prop/Castle/Tapestry/Red, high</name>
+      </placeable>
+      <transform>
+        <translation>8.5, 21.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1504</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, 2.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>992</id>
+      <placeable ref="21"/>
+      <transform>
+        <translation>-9.5, 21.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1505</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>21.5, 3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1506</id>
+      <placeable ref="19"/>
+      <transform>
+        <translation>19.5, -3.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>994</id>
+      <placeable ref="21"/>
+      <transform>
+        <translation>19.5, 30.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1507</id>
+      <placeable ref="19"/>
+      <transform>
+        <translation>19.5, 6.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1517</id>
+      <placeable>
+        <name>Dynamic/Switch/Button/One-Time</name>
+        <arguments>
+          <key class="java.lang.String">Actor</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>Dynamic/Switch/Button/One-Time</name>
+            <arguments>
+              <key class="java.lang.String">(On Signal)</key>
+              <value class="java.lang.String">open</value>
+              <key class="java.lang.String">(On Tag)</key>
+              <value class="java.lang.String">door 3a</value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>19.5, 1.5, 1.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1011</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>7.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1012</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>11.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1013</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>-12.5, 13.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1014</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>-8.5, 9.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1015</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>-8.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1016</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>-12.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1017</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>11.5, -10.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2042</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-8.5, -14.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1018</id>
+      <placeable ref="14"/>
+      <transform>
+        <translation>7.5, -6.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2043</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-8.5, -15.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2044</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-8.5, -16.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2045</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-8.5, -17.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2046</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-8.5, -18.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2047</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-7.5, -18.5, 0.0</translation>
+        <rotation>-0.0, -0.0, -8.742278E-8, 1.0</rotation>
+      </transform>
+    </entry>
+  </entries>
+</object>
+</java>

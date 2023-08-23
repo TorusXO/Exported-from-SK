@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java class="com.threerings.export.XMLImporter" version="1.0">
+<object class="com.threerings.tudey.data.TudeySceneModel">
+  <placeConfig class="com.threerings.projectx.mission.data.MissionSceneConfig">
+    <background>readyroom.jpg</background>
+  </placeConfig>
+  <cfgmgr>
+  </cfgmgr>
+  <sceneId>158</sceneId>
+  <name>%building:~</name>
+  <version>312</version>
+  <entries>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>64</id>
+      <sceneGlobal>
+        <name>Environment/Music</name>
+        <arguments>
+          <key class="java.lang.String">File</key>
+          <value class="java.lang.String">sound/music/mission_ui.ogg</value>
+          <key class="java.lang.String">Gain</key>
+          <value class="java.lang.Float">0.5</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2</id>
+      <placeable>
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>world/readyroom/model_readyroom.dat</name>
+          </value>
+        </arguments>
+      </placeable>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>3</id>
+      <sceneGlobal>
+        <name>Environment/Background Color</name>
+        <arguments>
+          <key class="java.lang.String">Color</key>
+          <value class="com.threerings.opengl.renderer.Color4f">0.0, 0.003921569, 0.003921569, 1.0</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>11</id>
+      <placeable>
+        <name>Camera/Default</name>
+        <arguments>
+          <key class="java.lang.String">Camera</key>
+          <value class="com.threerings.tudey.config.CameraConfig">
+            <priority>1</priority>
+            <fov>0.5235988</fov>
+            <near>0.01</near>
+            <coords>-2.0943952, 0.19198622, 4.93</coords>
+            <offset>0.0, -0.667, 1.0</offset>
+          </value>
+          <key class="java.lang.String">Easing</key>
+          <value class="com.threerings.opengl.effect.Easing$None">
+          </value>
+          <key class="java.lang.String">Extent - X axis</key>
+          <value class="java.lang.Float">300.0</value>
+          <key class="java.lang.String">Extent - Y axis</key>
+          <value class="java.lang.Float">300.0</value>
+          <key class="java.lang.String">Extent - Z axis</key>
+          <value class="java.lang.Float">300.0</value>
+          <key class="java.lang.String">Transition</key>
+          <value class="java.lang.Float">0.0</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>0.0, 3.0, 0.0</translation>
+        <rotation>0.08608502, -0.20782763, -0.90020055, 0.37287527</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>12</id>
+      <sceneGlobal>
+        <name>Environment/Ambient</name>
+        <arguments>
+          <key class="java.lang.String">Color</key>
+          <value class="com.threerings.opengl.renderer.Color4f">0.047058824, 0.14117648, 0.2, 1.0</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>13</id>
+      <sceneGlobal>
+        <name>Environment/Light</name>
+        <arguments>
+          <key class="java.lang.String">Light</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Directional">
+            <colors>
+              <diffuse>0.15294118, 0.5137255, 0.7294118, 1.0</diffuse>
+            </colors>
+            <direction>-1.2868818E-6, -0.7071067, 0.7071068</direction>
+          </value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>45</id>
+      <placeable>
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>particle/mesh/model_planedecal.dat</name>
+            <arguments>
+              <key class="java.lang.String">Material</key>
+              <value class="com.threerings.config.ConfigReference">
+                <name>Model/Translucent</name>
+                <arguments>
+                  <key class="java.lang.String">Fog</key>
+                  <value class="java.lang.String">Disabled</value>
+                  <key class="java.lang.String">Light Override</key>
+                  <value class="com.threerings.opengl.renderer.config.LightStateConfig$Enabled">
+                    <globalAmbient>0.011764706, 0.09019608, 0.14901961, 1.0</globalAmbient>
+                  </value>
+                  <key class="java.lang.String">Pass Mode</key>
+                  <value class="java.lang.String">Normal</value>
+                  <key class="java.lang.String">Texture</key>
+                  <value class="com.threerings.config.ConfigReference">
+                    <name>2D/File/Default</name>
+                    <arguments>
+                      <key class="java.lang.String">File</key>
+                      <value class="java.lang.String">particle/texture/sphere.png</value>
+                    </arguments>
+                  </value>
+                </arguments>
+              </value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>8.0</scale>
+        <translation>-0.25202137, 0.71519375, -0.16</translation>
+        <rotation>1.9449917E-9, -1.4773678E-8, 0.1305262, 0.9914449</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>14</id>
+      <sceneGlobal>
+        <name>Environment/Light</name>
+        <arguments>
+          <key class="java.lang.String">Light</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Directional">
+            <colors>
+              <diffuse>0.0, 0.84313726, 1.0, 1.0</diffuse>
+            </colors>
+            <direction>0.9130978, 0.16100426, -0.37460655</direction>
+          </value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>15</id>
+      <placeable>
+        <name>Lights/Point Light</name>
+        <arguments>
+          <key class="java.lang.String">Attenuation</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Attenuation">
+            <constant>0.0</constant>
+            <linear>0.125</linear>
+            <quadratic>1.3</quadratic>
+          </value>
+          <key class="java.lang.String">Diffuse</key>
+          <value class="com.threerings.opengl.renderer.Color4f">1.0, 0.7176471, 0.0, 1.0</value>
+          <key class="java.lang.String">Extent</key>
+          <value class="java.lang.Float">10.0</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>1.7, 0.52, 0.78999996</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>49</id>
+      <placeable>
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>particle/mesh/model_planedecal.dat</name>
+            <arguments>
+              <key class="java.lang.String">Material</key>
+              <value class="com.threerings.config.ConfigReference">
+                <name>Model/Translucent</name>
+                <arguments>
+                  <key class="java.lang.String">Fog</key>
+                  <value class="java.lang.String">Disabled</value>
+                  <key class="java.lang.String">Light Override</key>
+                  <value class="com.threerings.opengl.renderer.config.LightStateConfig$Enabled">
+                    <globalAmbient>0.047058824, 0.14117648, 0.2, 1.0</globalAmbient>
+                  </value>
+                  <key class="java.lang.String">Pass Mode</key>
+                  <value class="java.lang.String">Multiply x2</value>
+                  <key class="java.lang.String">Texture</key>
+                  <value class="com.threerings.config.ConfigReference">
+                    <name>2D/File/Default</name>
+                    <arguments>
+                      <key class="java.lang.String">File</key>
+                      <value class="java.lang.String">particle/texture/sphere.png</value>
+                    </arguments>
+                  </value>
+                </arguments>
+              </value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>15.0</scale>
+        <translation>4.9914923, -2.5995238, 4.049998</translation>
+        <rotation>-0.65790457, 0.25915548, 0.65790457, 0.25915548</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>19</id>
+      <placeable>
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>model/compound/model.dat</name>
+            <arguments>
+              <key class="java.lang.String">Influences</key>
+              <value class="com.threerings.opengl.model.config.InfluenceFlagConfig">
+                <fog>false</fog>
+                <lights>false</lights>
+                <projections>false</projections>
+                <definitions>false</definitions>
+              </value>
+              <key class="java.lang.String">Models</key>
+              <value class="[Lcom.threerings.opengl.model.config.CompoundConfig$ComponentModel;">
+                <entry>
+                  <model>
+                    <name>model/conditional/marker.dat</name>
+                    <arguments>
+                      <key class="java.lang.String">Model</key>
+                      <value class="com.threerings.config.ConfigReference">
+                        <name>editor/marker/vertex/model.dat</name>
+                      </value>
+                    </arguments>
+                  </model>
+                  <transform>
+                    <scale>0.5</scale>
+                  </transform>
+                </entry>
+                <entry>
+                  <model>
+                    <name>ui/status/parts/ambient_spotlight.dat</name>
+                  </model>
+                </entry>
+              </value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>2.04</scale>
+        <translation>1.56, 0.0, 5.95</translation>
+        <rotation>0.98768836, -6.837968E-9, -0.15643448, -4.317323E-8</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>21</id>
+      <placeable id="1">
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>model/compound/model.dat</name>
+            <arguments>
+              <key class="java.lang.String">Influences</key>
+              <value class="com.threerings.opengl.model.config.InfluenceFlagConfig">
+                <fog>false</fog>
+                <lights>false</lights>
+                <projections>false</projections>
+                <definitions>false</definitions>
+              </value>
+              <key class="java.lang.String">Models</key>
+              <value class="[Lcom.threerings.opengl.model.config.CompoundConfig$ComponentModel;">
+                <entry>
+                  <model>
+                    <name>model/conditional/marker.dat</name>
+                    <arguments>
+                      <key class="java.lang.String">Model</key>
+                      <value class="com.threerings.config.ConfigReference">
+                        <name>editor/marker/vertex/model.dat</name>
+                      </value>
+                    </arguments>
+                  </model>
+                  <transform>
+                    <scale>0.5</scale>
+                  </transform>
+                </entry>
+                <entry>
+                  <model>
+                    <name>world/environment/shadow/decal.dat</name>
+                    <arguments>
+                      <key class="java.lang.String">Color</key>
+                      <value class="com.threerings.opengl.renderer.Color4f">0.0, 0.08627451, 0.14509805, 0.8999999</value>
+                      <key class="java.lang.String">Size</key>
+                      <value class="java.lang.Float">1.0</value>
+                      <key class="java.lang.String">Texture</key>
+                      <value class="java.lang.String">world/environment/shadow/square.png</value>
+                    </arguments>
+                  </model>
+                </entry>
+              </value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>1.2899997</scale>
+        <translation>1.7069999, 0.5859999, 0.0</translation>
+        <rotation>0.0, 0.0, 0.104528464, 0.9945219</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>22</id>
+      <sceneGlobal>
+        <name>Environment/Shadow Color</name>
+        <arguments>
+          <key class="java.lang.String">Color</key>
+          <value class="com.threerings.opengl.renderer.Color4f">0.0, 0.08627451, 0.14117648, 0.9</value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>23</id>
+      <placeable ref="1"/>
+      <transform>
+        <scale>2.4699986</scale>
+        <translation>0.891, -1.049, 0.0</translation>
+        <rotation>0.0, 0.0, 0.28401536, 0.95881975</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$GlobalEntry">
+      <id>26</id>
+      <sceneGlobal>
+        <name>Environment/Fog</name>
+        <arguments>
+          <key class="java.lang.String">State</key>
+          <value class="com.threerings.opengl.renderer.config.FogStateConfig$Linear">
+            <start>4.8</start>
+            <end>3.0</end>
+          </value>
+        </arguments>
+      </sceneGlobal>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>28</id>
+      <placeable>
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>model/compound/model.dat</name>
+            <arguments>
+              <key class="java.lang.String">Influences</key>
+              <value class="com.threerings.opengl.model.config.InfluenceFlagConfig">
+                <fog>false</fog>
+                <lights>false</lights>
+                <projections>false</projections>
+                <definitions>false</definitions>
+              </value>
+              <key class="java.lang.String">Models</key>
+              <value class="[Lcom.threerings.opengl.model.config.CompoundConfig$ComponentModel;">
+                <entry>
+                  <model>
+                    <name>model/conditional/marker.dat</name>
+                    <arguments>
+                      <key class="java.lang.String">Model</key>
+                      <value class="com.threerings.config.ConfigReference">
+                        <name>editor/marker/vertex/model.dat</name>
+                      </value>
+                    </arguments>
+                  </model>
+                  <transform>
+                    <scale>0.5</scale>
+                  </transform>
+                </entry>
+                <entry>
+                  <model>
+                    <name>world/environment/shadow/decal.dat</name>
+                    <arguments>
+                      <key class="java.lang.String">Color</key>
+                      <value class="com.threerings.opengl.renderer.Color4f">0.0, 0.08627451, 0.14509805, 0.8999999</value>
+                      <key class="java.lang.String">Size</key>
+                      <value class="java.lang.Float">1.0</value>
+                      <key class="java.lang.String">Texture</key>
+                      <value class="java.lang.String">world/environment/shadow/circle.png</value>
+                    </arguments>
+                  </model>
+                </entry>
+              </value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>1.2299998</scale>
+        <translation>-0.43499982, 0.64100003, 0.0</translation>
+        <rotation>0.51527756, 0.19779652, 0.29883796, 0.7784995</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>60</id>
+      <placeable id="2">
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>particle/mesh/model_planedecal.dat</name>
+            <arguments>
+              <key class="java.lang.String">Material</key>
+              <value class="com.threerings.config.ConfigReference">
+                <name>Model/Translucent</name>
+                <arguments>
+                  <key class="java.lang.String">Fog</key>
+                  <value class="java.lang.String">Disabled</value>
+                  <key class="java.lang.String">Light Override</key>
+                  <value class="com.threerings.opengl.renderer.config.LightStateConfig$Enabled">
+                    <globalAmbient>0.0, 0.0, 0.0, 1.0</globalAmbient>
+                  </value>
+                  <key class="java.lang.String">Pass Mode</key>
+                  <value class="java.lang.String">Multiply x2</value>
+                  <key class="java.lang.String">Texture</key>
+                  <value class="com.threerings.config.ConfigReference">
+                    <name>2D/File/Default</name>
+                    <arguments>
+                      <key class="java.lang.String">File</key>
+                      <value class="java.lang.String">world/readyroom/fgcables.png</value>
+                    </arguments>
+                  </value>
+                </arguments>
+              </value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>2.050001</scale>
+        <translation>-2.0185068, 4.75958E-4, 2.5699983</translation>
+        <rotation>-0.09535545, -0.7174219, -0.5324945, 0.4389336</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>29</id>
+      <placeable ref="1"/>
+      <transform>
+        <scale>1.6499994</scale>
+        <translation>-1.788, -0.64599997, 0.0</translation>
+        <rotation>0.06480311, 0.250575, -0.24184851, 0.9351588</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>61</id>
+      <placeable ref="2"/>
+      <transform>
+        <scale>1.2900001</scale>
+        <translation>-2.4589999, 1.9120004, 2.3700001</translation>
+        <rotation>0.18823238, -0.6953881, -0.21189757, 0.6603812</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>62</id>
+      <placeable>
+        <name>Prop/Knights/Block - Toughbox, Gear 01</name>
+      </placeable>
+      <transform>
+        <scale>0.97</scale>
+        <translation>-0.36000013, 1.8700001, -0.039999984</translation>
+        <rotation>0.0, 0.0, 0.8141155, 0.58070296</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>63</id>
+      <placeable>
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>particle/mesh/model_planedecal.dat</name>
+            <arguments>
+              <key class="java.lang.String">Material</key>
+              <value class="com.threerings.config.ConfigReference">
+                <name>Model/Translucent</name>
+                <arguments>
+                  <key class="java.lang.String">Fog</key>
+                  <value class="java.lang.String">Disabled</value>
+                  <key class="java.lang.String">Light Override</key>
+                  <value class="com.threerings.opengl.renderer.config.LightStateConfig$Enabled">
+                    <globalAmbient>0.03137255, 0.0627451, 0.09019608, 1.0</globalAmbient>
+                  </value>
+                  <key class="java.lang.String">Pass Mode</key>
+                  <value class="java.lang.String">Multiply x2</value>
+                  <key class="java.lang.String">Texture</key>
+                  <value class="com.threerings.config.ConfigReference">
+                    <name>2D/File/Default</name>
+                    <arguments>
+                      <key class="java.lang.String">File</key>
+                      <value class="java.lang.String">world/readyroom/fgcables.png</value>
+                    </arguments>
+                  </value>
+                </arguments>
+              </value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>1.4500015</scale>
+        <translation>2.1634903, -1.6397629, 1.7099991</translation>
+        <rotation>-0.002471745, -0.7251989, -0.51269144, 0.45959538</rotation>
+      </transform>
+    </entry>
+  </entries>
+</object>
+</java>

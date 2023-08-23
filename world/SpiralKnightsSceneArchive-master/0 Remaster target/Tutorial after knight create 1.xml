@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java class="com.threerings.export.XMLImporter" version="1.0">
+<object class="com.threerings.tudey.data.TudeySceneModel">
+  <cfgmgr>
+  </cfgmgr>
+  <tiles depth="1">
+    <cells>
+      <key class="com.threerings.tudey.util.Coord">-7, -17</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>589800, 589800, 3342312, -1, -1, -1, -1, -1, 655336, 655336, 917480, -1, -1, -1, -1, -1, 589800, 655336, 655336, -1, -1, -1, -1, -1, 2490344, 720872, 589800, -1, -1, -1, -1, -1, 2031592, 786408, 917480, -1, -1, -1, -1, -1, 3801064, 262120, 2424808, -1, -1, -1, -1, -1, 1245160, 851944, 589824, -1, -1, -1, -1, -1, 524288, 851968, 524288, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-8, -17</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>655336, 589800, 917480, 589800, 589800, 917480, 655336, 917480, 655336, 917480, 2162664, 589800, 917480, 589800, 589800, 655336, 2490344, 720872, 589800, 917480, 589800, 589800, 1703912, 589800, 2555880, 786408, 589800, 917480, 3342312, 589800, 1310696, 2490344, 3014632, 786408, 1310696, 2490344, 2490344, 2490344, 1900520, 2555880, 2097128, 2293736, 1376232, 2031592, 1966056, 2031592, 3735528, 2949096, -1, 589800, 1376232, 2686952, 3014632, 2555880, 3669992, 262120, -1, 1310696, 1900520, 2031592, 2031592, 262120, 1245160, 851944</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-7, -15</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>917504, 917504, 917504, -1, -1, -1, -1, -1, 524288, 1245184, 2424832, -1, -1, -1, -1, -1, 524288, 1310720, 1966080, -1, -1, -1, -1, -1, 851947, 1376256, 2031616, -1, -1, -1, -1, -1, 262123, 851947, 524288, -1, -1, -1, -1, -1, 1769448, 262123, 1834986, -1, -1, -1, -1, -1, 1572840, 1507304, 1769448, -1, -1, -1, -1, -1, 1572840, 1572840, 1572840, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-9, -17</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>786408, 589800, 589800, 589800, 917480, 589800, 589800, 655336, 2621416, 2490344, 720872, 589800, 917480, 589800, 589800, 2162664, 3014632, 2686952, 2621416, 720872, 1310696, 2490344, 2490344, 2490344, 2949096, 3801064, 2555880, 2621416, 1900520, 2031592, 2031592, 2555880, 4194280, 3932136, 2031592, 2031592, 2555880, 2555880, 2555880, 3014632, 2883560, 3866600, 2555880, 2555880, 4063208, 4063208, 2752488, 2097128, 4587496, 2555880, 2031592, 2031592, 2555880, 2752488, 2293736, 4653032, 3473384, 2555880, 2686952, 2031592, 2555880, 786408, 917480, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-8, -15</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>786433, 196609, 1966080, 2555904, 655360, 1638401, 524288, 524288, 589848, 1179649, 3407872, 1966080, 720896, 524288, 1638400, 851968, 524312, 2359297, 1376256, 2031616, 2228224, 524288, 851968, 851968, 786434, 196610, 851946, 1834986, 1834986, 1834986, 1834986, 1834986, 1179649, 851946, 262122, 1769448, 1769448, 1769448, 1769448, 4325352, 458753, 2424809, 3604456, 1572840, 1572840, 1572840, 1572840, 1507304, 196610, 2424809, 1572840, 1572840, 1572840, 1572840, 1572840, 1572840, 851946, 262122, 1572840, 1572840, 1572840, 1638376, 1572840, 1572840</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-10, -17</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1048553, 458728, 393193, 1441768, 3473384, 3014632, 2031592, 2555880, 131048, 131048, 1048553, 393193, 1376232, 2031592, 2686952, 2031592, 131048, 131048, 131048, 458729, 1376232, 2555880, 3014632, 2686952, 131048, 1048554, 65514, 393194, 1900520, 3735528, 2949096, 2949096, 131048, 458729, 1310696, 1900520, 3735528, 4128744, 3145704, 4718568, 131048, 65513, 1376232, 3014632, 3669992, 4194280, 3080168, 4784104, 131048, 1048553, 393193, 3014632, 4259816, 2883560, 2883560, 3866600, 1048555, 131048, 2818025, 3014632, 2686952, 2555880, 2752488, 2097128</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-11, -17</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 65514, 65514, 65514, 458730, 458730, 458730, 1048555, 131048, 2162688, 3145728, -1, 2162688, 262144, 1114113, 393195, 1048555, 196608, 1179648, 458752, 2359296, 196609, 1048577, 1114113, 65515, 1179651, 851992, 327704, 24, 327705, 196609, 262145, 393195</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-9, -15</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>786432, 3211288, 327704, 983064, 65560, 65560, 25, 524312, 851992, 3211288, 393243, 65560, 65560, 65560, 983065, 327705, 524312, 524312, 327707, 983067, 65560, 65560, 65560, 393241, 1769474, 1769474, 786435, 327707, 26, 3932186, -1, 327706, 524288, 589824, 196611, 1769474, 786435, 524312, 524312, 589848, 524288, 851968, 851968, 851968, 458755, 524312, 2097176, 524312, 524288, 589824, 196608, 1179648, 786432, 524312, 851992, 786434, 196608, 131072, 786432, 327704, 393240, 327705, 786434, 196610</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-10, -15</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>851968, 524288, 524288, 851968, 524288, 2097152, 196608, 458752, 524288, 524288, 851968, 851968, 524288, 524288, 131075, 2097176, 851968, 851968, 589824, 524288, 524288, 589824, 2359299, 851992, 524288, 524288, 524288, 851968, 589824, 3276800, 196611, 1769474, 3211264, 524288, 524288, 851968, 851968, 589824, 524288, 524288, 524288, 1245184, 2424832, 655360, 524288, 589824, 851968, 524288, 196609, 1310720, 1966080, 720896, 524288, 524288, 524288, 524288, 1179649, 1376256, 2031616, 2228224, 589824, 524288, 524288, 589824</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-11, -15</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>3276872, 524360, 131121, 2162737, 27, 65560, 25, 458753, 524360, 786482, 196658, 262193, 327707, 393242, 327706, 1179649, 786482, 196658, 1179672, 196633, 458755, 3211288, 524312, 2359297, 196658, 852016, 524336, 786457, 196633, 524312, 524312, 1179649, 852016, 524336, 589872, 524336, 458777, 1638425, 524312, 2359297, 852016, 524336, 852016, 524336, 131097, 524312, 524312, 2359297, 852016, 524336, 786458, 1769498, 196634, 589848, 524312, 786433, 524336, 524336, 131097, 524312, 3276824, 851992, 589848, 3211288</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-7, -18</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 327656, 2228200, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-8, -18</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 327656, 2228200, 327656, 327656, 327656, 1179625, -1, -1, 655336, 2162664, 589800, 589800, 589800, 1114089, 327656, 4390888</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-7, -16</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>524288, 851968, 524288, -1, -1, -1, -1, -1, 524288, 524288, 589824, -1, -1, -1, -1, -1, 917504, 917504, 917504, -1, -1, -1, -1, -1, 917504, 917504, 917504, -1, -1, -1, -1, -1, 917504, 917504, 917504, -1, -1, -1, -1, -1, 917504, 917504, 917504, -1, -1, -1, -1, -1, 917504, 917504, 917504, -1, -1, -1, -1, -1, 917504, 917504, 917504, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-9, -18</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2228200, 2228200, 4390888, -1, 2228200, 1179625, -1, 655336, 589800, 589800, 2162664, 589800, 655336, 1114089, 327656, 720872, 589800, 589800, 3342312, 917480, 917480, 917480, 589800</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-8, -16</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>720872, 1376232, 2555880, 2031592, 2031592, 2424811, 1245184, 655360, 2621416, 1900520, 2555880, 3735528, 262120, 851944, 1376256, 2228224, 2555880, 2031592, 3014632, 3669992, 1245163, 589824, 524288, 917504, 3014632, 1966056, 3407848, 4259816, 262123, 851947, 917504, 917504, 2097128, 2097128, 3473384, 2031592, 262120, 851944, 917504, 917504, 2424808, 262121, 1441768, 2097128, 1245163, 851968, 917504, 917504, 196609, 851945, 2424808, 1245160, 851944, 524288, 917504, 917504, 1179649, 2424832, 2424832, 655360, 2097152, 524288, 851968, 917504</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-10, -18</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 589800, 589800, 1114089, 327656, 327656, 3211240, -1, 3211240, 917480, 655336, 655336, 1310696, 2490344, 2490344, 720872, 917480, 393193, 589800, 589800, 1376232, 3014632, 2686952, 2621416, 2490344</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-11, -18</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 458728, 1048552, 131048, 131048, 1048553, 393193, 917480, 917480, 131048, 131048, 131048, 131048, 131048, 1048553, 65512, 393193, 131048, 131048, 131048, 131048, 131048, 131048, 131048, 1048553</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-7, -14</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1572840, 1572840, 1572840, -1, -1, -1, -1, -1, 1572840, 1572840, 1572840, -1, -1, -1, -1, -1, 1572840, 1572840, 1572840, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-9, -16</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1441768, 3473384, 2031592, 4063208, 2555880, 786408, 1310696, 2490344, 262121, 1441768, 2097128, 2097128, 2097128, 2293736, 1376232, 2555880, 851945, 2424808, 262121, 917480, 3342312, 1703914, 1376232, 2031592, 589824, 851968, 851945, 1245160, 524264, 262121, 1441768, 3473384, 524288, 524288, 524288, 524288, 4456448, 851945, 262121, 1441768, 589824, 851968, 196608, 2359296, 1179648, 196609, 851945, 1245160, 524288, 851968, 131075, 851992, 589848, 786433, 131072, 1179648, 196608, 1179648, 786432, 327704, 393240, 24, 327705, 2097176</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-8, -14</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>2424809, 2359272, 3538920, 1572840, 1572840, 1572840, 1572840, 1572840, 851945, 2424808, 262121, 3538920, 1572840, 1572840, 1572840, 1572840, 655360, 524288, 2424809, 4456424, 1572840, 1572840, 1572840, 1572840, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-10, -16</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>65515, 131048, -1, 2097128, 2097128, 2097128, 2293736, 589800, 393195, 458730, 393194, 262120, 524264, 524264, 524264, 2424808, 1114113, 589800, 262120, 851944, 524288, 524288, 589824, 524288, 262145, 589800, 2424811, 524288, 589824, 524288, 2097152, 851968, 2162688, 524264, 851944, 524288, 589824, 851968, 524288, 524288, 1245184, 2424832, 655360, 851968, 524288, 589824, 851968, 524288, 1310720, 1966080, 720896, 524288, 3211264, 589824, 524288, 524288, 1376256, 2031616, 2228224, 524288, 524288, 2097152, 2097152, 589824</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-11, -16</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>196611, 1769474, 393243, 65560, 25, 458753, 1048577, 1114113, 262192, 1114161, 327707, 393242, 327706, 786433, 196609, 262145, 196657, 1048625, 262192, 1114161, 327704, 327705, 1179649, 1048577, 786481, 131120, 196657, 4325425, 327707, 327706, 786433, 196609, 524360, 852040, 131121, -1, 327704, 393240, 327705, 2359297, 852040, 524360, 131121, 4325425, 27, 65560, 25, 1179649, 524360, 589896, 131121, -1, 27, 65560, 393241, 1179649, 852040, 852040, 458801, 262193, 393243, 65560, 25, 2359297</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-9, -14</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>786432, 327704, 393240, 983064, 65560, 25, 458753, 851968, 327704, 983064, 65560, 65560, 983066, 327706, 458753, 851968, 393243, 65560, 65560, 65560, 25, 786434, 196610, 2424832, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-10, -14</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>786433, 196609, 851968, 524288, 196608, 1179648, 1179648, 2359296, 327705, 2359297, 196608, 458752, 786432, 524312, 589848, 524312, 393241, 786433, 786432, 851992, 327704, 393240, 327705, 851992, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+      <key class="com.threerings.tudey.util.Coord">-11, -14</key>
+      <value class="com.threerings.tudey.util.CoordIntMap$Cell">
+        <outer rdepth="1"/>
+        <values>1179696, 196657, 786457, 196633, 327704, 393240, 327705, 589848, 524360, 786481, 196657, 131097, 393243, 65560, 983065, 24, 589896, 2097224, 131121, 786457, 196633, 983067, 65560, 65560, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</values>
+      </value>
+    </cells>
+  </tiles>
+  <tileConfigs>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Foliage/Wall edge S 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Foliage/Null</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Cliff/Wall edge S 04 Cube</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Cliff/Wall out SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Abyss edge S 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Foliage/Wall out SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Foliage/Wall edge S 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Cliff/Wall edge S 03 Cube</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Dirt 04</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Dirt 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field out SE</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field edge E</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Cliff/Wall in SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Dirt 03</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Null</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Foliage/Wall in SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Abyss in SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Abyss out SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Cliff/Wall edge S 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field out SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field edge W</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field out NW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/out SE</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/m</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/m (Peaks) (2)</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Cube 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/edge S</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Cliff/Wall edge N 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field in SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Flowers 03</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field 04</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field edge N</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Dirt 07 weeds</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Abyss edge S 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field out NE</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/edge N</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Cliff/Wall edge S 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field edge S</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field 03</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field in SE</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field in NE</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Foliage/Wall edge S x2 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field edge N Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field edge S Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field 01 Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Flowers 02 Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Abyss edge S x2 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Cube 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Dirt 06 weeds</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Flowers 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Field in NW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/out NW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/out SW</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field edge W Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field out SW Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field out SE Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field out NE Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field edge E Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Foliage/Wall edge S x2 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Flowers 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field in SW Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field 02 Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field out NW Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/in SE</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Abyss edge S x2 01</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Water/fountain/edge W</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Cube 03</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Tall/Flowers 04</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Dirt/Cube x2 02</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Flowers 01 Short</name>
+      </tile>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$TileConfigMapping">
+      <tile>
+        <name>Haven/Natural/Grass/Short/Field in NE Short</name>
+      </tile>
+    </entry>
+  </tileConfigs>
+  <entries>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>1</id>
+      <placeable>
+        <name>Environment/Fog/Default</name>
+        <arguments>
+          <key class="java.lang.String">Extent - X</key>
+          <value class="java.lang.Float">300.0</value>
+          <key class="java.lang.String">Extent - Y</key>
+          <value class="java.lang.Float">100.0</value>
+          <key class="java.lang.String">Extent - Z</key>
+          <value class="java.lang.Float">64.0</value>
+          <key class="java.lang.String">Fog</key>
+          <value class="com.threerings.opengl.renderer.config.FogStateConfig$Linear">
+            <color>0.8980392, 0.9098039, 0.77254903, 0.0</color>
+            <start>15.0</start>
+            <end>40.0</end>
+          </value>
+          <key class="java.lang.String">Label</key>
+          <value class="java.lang.String">Viewer Affecter</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-35.0, -93.0, 9.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>2</id>
+      <placeable id="1">
+        <name>Prop/Haven/Foliage Top/Top 4x4 01</name>
+      </placeable>
+      <transform>
+        <translation>-85.5, -137.5, -1.0</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>3</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-81.5, -136.5, -1.0</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>4</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-88.5, -134.5, -1.0</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>5</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-84.5, -133.5, -1.0</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>6</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-81.5, -134.5, 0.5</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>7</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-78.5, -134.5, -1.0</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>8</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-80.5, -132.5, -1.0</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>9</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-78.5, -132.5, 0.5</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>10</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-78.5, -129.5, -1.0</translation>
+        <rotation>0.0, 0.0, -8.742278E-8, -1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>11</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-84.5, -127.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>12</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-83.5, -123.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>13</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-82.5, -120.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>14</id>
+      <placeable>
+        <name>Lights/Spot/Default</name>
+        <arguments>
+          <key class="java.lang.String">Attenuation</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Attenuation">
+            <constant>2.4</constant>
+            <quadratic>0.002</quadratic>
+          </value>
+          <key class="java.lang.String">Color</key>
+          <value class="com.threerings.opengl.renderer.Color4f">1.0, 0.92941177, 0.6392157, 1.0</value>
+          <key class="java.lang.String">Direction</key>
+          <value class="com.threerings.math.Vector3f">0.0, -4.371139E-8, -1.0</value>
+          <key class="java.lang.String">Extent</key>
+          <value class="com.threerings.opengl.scene.config.Extent$Limited">
+            <sizeX>12.0</sizeX>
+            <sizeY>12.0</sizeY>
+            <sizeZ>20.5</sizeZ>
+          </value>
+          <key class="java.lang.String">Falloff</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Falloff">
+            <exponent>16.0</exponent>
+            <cutoff>28.0</cutoff>
+          </value>
+          <key class="java.lang.String">Shape</key>
+          <value class="com.threerings.tudey.shape.config.ShapeConfig$Rectangle">
+            <width>12.0</width>
+            <height>12.0</height>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-58.0, -117.5, 8.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>15</id>
+      <placeable id="2">
+        <name>Dynamic/Block/Breakable/Haven</name>
+      </placeable>
+      <transform>
+        <translation>-72.5, -125.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>16</id>
+      <placeable ref="2"/>
+      <transform>
+        <translation>-70.5, -124.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>17</id>
+      <placeable>
+        <name>Prop/General/Nature/Foliage/Ivy &amp; Vines/Ivy, wall x3 01</name>
+      </placeable>
+      <transform>
+        <translation>-64.38933, -122.28714, 0.0</translation>
+        <rotation>-0.023225885, -0.044478744, -0.007908381, 0.99870896</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>18</id>
+      <placeable>
+        <name>Lights/Spot/Default</name>
+        <arguments>
+          <key class="java.lang.String">Attenuation</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Attenuation">
+            <constant>2.4</constant>
+            <quadratic>0.002</quadratic>
+          </value>
+          <key class="java.lang.String">Color</key>
+          <value class="com.threerings.opengl.renderer.Color4f">1.0, 0.62352943, 0.12941177, 1.0</value>
+          <key class="java.lang.String">Direction</key>
+          <value class="com.threerings.math.Vector3f">0.0, -4.371139E-8, -1.0</value>
+          <key class="java.lang.String">Extent</key>
+          <value class="com.threerings.opengl.scene.config.Extent$Limited">
+            <sizeX>12.0</sizeX>
+            <sizeY>12.0</sizeY>
+            <sizeZ>20.5</sizeZ>
+          </value>
+          <key class="java.lang.String">Falloff</key>
+          <value class="com.threerings.opengl.renderer.config.LightConfig$Falloff">
+            <exponent>16.0</exponent>
+            <cutoff>28.0</cutoff>
+          </value>
+          <key class="java.lang.String">Shape</key>
+          <value class="com.threerings.tudey.shape.config.ShapeConfig$Rectangle">
+            <width>12.0</width>
+            <height>12.0</height>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-54.0, -126.15997, 8.0</translation>
+        <rotation>-0.12940954, -0.12940954, -0.017037082, 0.98296297</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$AreaEntry">
+      <id>19</id>
+      <area>
+        <name>Player Enter/Progress Event</name>
+        <arguments>
+          <key class="java.lang.String">Level</key>
+          <value class="java.lang.String">tutorial_new</value>
+          <key class="java.lang.String">Progress</key>
+          <value class="java.lang.String">00_Spawn</value>
+        </arguments>
+      </area>
+      <vertices>
+        <entry>
+          <x>-58.516045</x>
+          <y>-128.26031</y>
+        </entry>
+        <entry>
+          <x>-47.257713</x>
+          <y>-134.76031</y>
+        </entry>
+        <entry>
+          <x>-43.757713</x>
+          <y>-128.69814</y>
+        </entry>
+        <entry>
+          <x>-55.016045</x>
+          <y>-122.198135</y>
+        </entry>
+      </vertices>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$AreaEntry">
+      <id>20</id>
+      <area>
+        <name>Player Enter/Spawn Activate</name>
+        <arguments>
+          <key class="java.lang.String">Trigger Action</key>
+          <value class="com.threerings.tudey.config.ActionConfig$Signal">
+            <name>activate</name>
+            <target class="com.threerings.tudey.config.TargetConfig$Tagged">
+              <tag>tut_welcome</tag>
+            </target>
+          </value>
+        </arguments>
+      </area>
+      <vertices>
+        <entry>
+          <x>-54.5</x>
+          <y>-111.5</y>
+        </entry>
+        <entry>
+          <x>-58.5</x>
+          <y>-117.5</y>
+        </entry>
+        <entry>
+          <x>-47.5</x>
+          <y>-123.5</y>
+        </entry>
+        <entry>
+          <x>-43.5</x>
+          <y>-117.5</y>
+        </entry>
+      </vertices>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>21</id>
+      <placeable>
+        <name>Lights/Prop/Recolor/Sunbeam, tall</name>
+        <arguments>
+          <key class="java.lang.String">Light State Override</key>
+          <value class="com.threerings.opengl.renderer.Color4f">0.6509804, 0.45490196, 0.09411765, 1.0</value>
+        </arguments>
+      </placeable>
+      <transform>
+        <translation>-53.5, -127.5, -1.0</translation>
+        <rotation>0.0, 0.0, 8.742277E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>22</id>
+      <placeable>
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>model/compound/model.dat</name>
+            <arguments>
+              <key class="java.lang.String">Influences</key>
+              <value class="com.threerings.opengl.model.config.InfluenceFlagConfig">
+                <fog>false</fog>
+                <lights>false</lights>
+                <projections>false</projections>
+              </value>
+              <key class="java.lang.String">Models</key>
+              <value class="[Lcom.threerings.opengl.model.config.CompoundConfig$ComponentModel;">
+                <entry>
+                  <model>
+                    <name>model/conditional/marker.dat</name>
+                    <arguments>
+                      <key class="java.lang.String">Model</key>
+                      <value class="com.threerings.config.ConfigReference">
+                        <name>editor/marker/vertex/model.dat</name>
+                      </value>
+                    </arguments>
+                  </model>
+                  <transform>
+                    <scale>0.5</scale>
+                  </transform>
+                </entry>
+                <entry>
+                  <model>
+                    <name>world/environment/shadow/decal.dat</name>
+                    <arguments>
+                      <key class="java.lang.String">Color</key>
+                      <value class="com.threerings.opengl.renderer.Color4f">0.21568628, 0.22352941, 0.18431373, 0.94000006</value>
+                      <key class="java.lang.String">Size</key>
+                      <value class="java.lang.Float">1.0</value>
+                      <key class="java.lang.String">Texture</key>
+                      <value class="java.lang.String">particle/texture/bomb_blast-char.png</value>
+                    </arguments>
+                  </model>
+                </entry>
+              </value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>5.4600306</scale>
+        <translation>-55.36886, -124.81888, 1.8599987</translation>
+        <rotation>0.2923972, -0.070198365, -0.22264081, 0.9273657</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>23</id>
+      <placeable id="5">
+        <name>Prop/General/Nature/Foliage/Grass variants/Grass billboard, small 2</name>
+      </placeable>
+      <transform>
+        <translation>-57.06429, -127.39683, 0.0</translation>
+        <rotation>-0.04853091, 0.032454476, 0.10131505, 0.99313986</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>24</id>
+      <placeable>
+        <name>Prop/General/Nature/Foliage/Variants - Haven/Leaves, Haven 03</name>
+      </placeable>
+      <transform>
+        <translation>-54.664314, -128.49396, 0.0</translation>
+        <rotation>0.0, 0.0, -0.9950591, 0.09928462</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>25</id>
+      <placeable id="4">
+        <name>Prop/Haven/Nature/Boulder 01</name>
+      </placeable>
+      <transform>
+        <scale>0.9600009</scale>
+        <translation>-55.777657, -128.59819, 0.0</translation>
+        <rotation>0.0, 0.0, -0.38268337, 0.92387956</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>26</id>
+      <placeable id="3">
+        <name>Model Tester</name>
+        <arguments>
+          <key class="java.lang.String">Model</key>
+          <value class="com.threerings.config.ConfigReference">
+            <name>world/prop/catacomb/stone_01.dat</name>
+            <arguments>
+              <key class="java.lang.String">Receives Projections</key>
+              <value class="java.lang.Boolean">true</value>
+              <key class="java.lang.String">Texture</key>
+              <value class="java.lang.String">world/prop/outershell/nature/bounder_haven.png</value>
+            </arguments>
+          </value>
+        </arguments>
+      </placeable>
+      <transform>
+        <scale>0.840001</scale>
+        <translation>-56.023533, -125.621796, -0.49999982</translation>
+        <rotation>0.0, 0.0, -0.93969256, 0.34202027</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>27</id>
+      <placeable>
+        <name>Prop/Knights/Crash site</name>
+      </placeable>
+      <transform>
+        <translation>-55.5, -123.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>28</id>
+      <placeable ref="3"/>
+      <transform>
+        <scale>0.9100009</scale>
+        <translation>-56.575623, -125.354225, -0.38999993</translation>
+        <rotation>0.0, 0.0, 0.99904823, 0.043619692</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>29</id>
+      <placeable ref="3"/>
+      <transform>
+        <scale>0.7500011</scale>
+        <translation>-56.64886, -124.41294, -0.39999992</translation>
+        <rotation>0.0, 0.0, -0.7660444, 0.6427877</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>30</id>
+      <placeable id="6">
+        <name>Prop/General/Nature/Foliage/Variants - Haven/Leaves, Haven 04</name>
+      </placeable>
+      <transform>
+        <translation>-57.74662, -122.679054, 0.0</translation>
+        <rotation>0.0, 0.0, -0.530309, 0.8478044</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>31</id>
+      <placeable id="9">
+        <name>Prop/General/Nature/Foliage/Variants - Haven/Leaves, Haven 01</name>
+      </placeable>
+      <transform>
+        <translation>-58.38596, -122.908745, 0.0</translation>
+        <rotation>0.0, 0.0, 0.055444703, 0.9984617</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>32</id>
+      <placeable ref="3"/>
+      <transform>
+        <scale>0.6000012</scale>
+        <translation>-54.857414, -125.4153, -0.20000003</translation>
+        <rotation>0.0, 0.0, -0.79335326, 0.60876155</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>33</id>
+      <placeable>
+        <name>Prop/Ambient FX/Static/Smoke</name>
+      </placeable>
+      <transform>
+        <translation>-55.150772, -122.61743, -1.2799991</translation>
+        <rotation>0.0, 0.17364818, 0.0, 0.9848077</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>34</id>
+      <placeable>
+        <name>Prop/General/Nature/Foliage/Grass variants/Grass billboard, large 1</name>
+      </placeable>
+      <transform>
+        <scale>0.74000025</scale>
+        <translation>-53.10118, -130.20602, 0.0</translation>
+        <rotation>-0.05119606, 0.047485553, 0.024140576, 0.99726695</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>35</id>
+      <placeable id="7">
+        <name>Prop/General/Nature/Foliage/Grass variants/Grass billboard, small 1</name>
+      </placeable>
+      <transform>
+        <scale>0.7100003</scale>
+        <translation>-53.967583, -129.83856, 0.0</translation>
+        <rotation>-0.0160169, -0.006674584, -0.13790174, 0.99029386</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>36</id>
+      <placeable ref="4"/>
+      <transform>
+        <scale>1.6700002</scale>
+        <translation>-53.813705, -130.72107, -1.5099989</translation>
+        <rotation>0.0, 0.0, -0.9876883, 0.1564346</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>37</id>
+      <placeable ref="5"/>
+      <transform>
+        <scale>0.5500002</scale>
+        <translation>-52.95199, -129.93457, 0.0</translation>
+        <rotation>-0.0160169, -0.006674584, -0.13790174, 0.99029386</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>38</id>
+      <placeable ref="3"/>
+      <transform>
+        <scale>0.9200009</scale>
+        <translation>-53.744, -125.63113, -0.5399998</translation>
+        <rotation>0.0, 0.0, -0.9990482, 0.04361981</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>39</id>
+      <placeable ref="4"/>
+      <transform>
+        <scale>1.0800008</scale>
+        <translation>-53.680534, -124.63184, -0.7599999</translation>
+        <rotation>0.0, 0.0, -0.7933533, 0.6087615</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>40</id>
+      <placeable ref="6"/>
+      <transform>
+        <translation>-53.561222, -123.299126, 0.0</translation>
+        <rotation>0.0, 0.0, 0.23353022, 0.9723495</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>41</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-81.5, -110.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>42</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-79.5, -107.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>43</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-69.5, -117.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>44</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-74.5, -107.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>45</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-70.5, -108.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>46</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-65.5, -116.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>47</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-66.5, -119.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>48</id>
+      <placeable ref="4"/>
+      <transform>
+        <scale>1.92</scale>
+        <translation>-62.393738, -120.45079, 0.0</translation>
+        <rotation>0.0, 0.0, -0.5, 0.8660254</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>49</id>
+      <placeable ref="1"/>
+      <transform>
+        <translation>-68.5, -110.5, 2.5</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>50</id>
+      <placeable ref="4"/>
+      <transform>
+        <scale>1.92</scale>
+        <translation>-62.745094, -109.57594, 0.0</translation>
+        <rotation>0.0, 0.0, 0.5735764, 0.81915206</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>51</id>
+      <placeable>
+        <name>Lights/Prop/Sunbeam, tall</name>
+      </placeable>
+      <transform>
+        <translation>-60.5, -115.5, -1.0</translation>
+        <rotation>0.0, 0.0, 8.742277E-8, 1.0</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>52</id>
+      <placeable ref="7"/>
+      <transform>
+        <translation>-60.999924, -117.268654, 0.0</translation>
+        <rotation>-0.013268507, -0.011182046, 0.16626783, 0.98592794</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>53</id>
+      <placeable>
+        <name>Dynamic/Breakable Objects/Sky Islands, Day/Shrub 1, yellow-green</name>
+      </placeable>
+      <transform>
+        <translation>-58.5, -118.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>54</id>
+      <placeable id="8">
+        <name>Dynamic/Breakable Objects/Sky Islands, Day/Shrub 1, green</name>
+      </placeable>
+      <transform>
+        <translation>-57.5, -119.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>55</id>
+      <placeable>
+        <name>Dynamic/Breakable Objects/Sky Islands, Day/Shrub 2, yellow-green</name>
+      </placeable>
+      <transform>
+        <translation>-56.5, -118.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>56</id>
+      <placeable ref="8"/>
+      <transform>
+        <translation>-57.5, -117.5, 0.0</translation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>57</id>
+      <placeable ref="9"/>
+      <transform>
+        <translation>-52.539585, -118.93505, 0.0</translation>
+        <rotation>0.0, 0.0, -0.9986644, 0.051666036</rotation>
+      </transform>
+    </entry>
+    <entry class="com.threerings.tudey.data.TudeySceneModel$PlaceableEntry">
+      <id>58</id>
+      <placeable ref="6"/>
+      <transform>
+        <translation>-52.843777, -119.02965, 0.0</translation>
+        <rotation>0.0, 0.0, 0.5836833, 0.8119814</rotation>
+      </transform>
+    </entry>
+  </entries>
+</object>
+</java>

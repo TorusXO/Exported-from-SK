@@ -1,0 +1,184 @@
+1- null
+2- Bazaar
+3- Arcade
+158- Ready Room
+223- Danger Mission (Legion of Almire) Floor 1
+224- Danger Mission (Legion of Almire) Treasure Room
+242- Scarlet Fortress Version 1
+243- Scarlet Fortress Version 2
+245- Scarlet Fortress (Boxed) Version 3
+246- Scarlet Fortress (Boxed Reversed) Version 4
+247- Scarlet Fortress (Boxed Reversed 2) Version 5
+251- Jelly King Depth 2
+253- Jelly King Depth 1
+255- Jelly King Depth 3 (Boss Room)
+259- Scarlet Fortress Version 6
+260- Scarlet Fortress Version 7
+261- Arkus Map
+262- Firestorm Citadel Depth 3
+263- Dark Firestorm Citadel Depth 3
+264- Firestorm Citadel Depth 1
+265- Dark Firestorm Citadel Depth 1
+266- null
+267- null
+268- Firestorm Citadel Depth 4
+269- Dark Firestorm Citadel Depth 4
+270- Firestorm Citadel Depth 5 (Boss Room)
+271- Dark Firestorm Citadel Depth 5 (Boss Room)
+275- Concrete Jungle Version 1
+277- Concrete Jungle Version 2
+279- Concrete Jungle Version 3
+282- Concrete Jungle Version 4
+284- Dark City Version 1
+285- Dark City Version 2
+286- Dark City Version 3
+287- Dark City Version 3 (alt)
+288- Dark City Version 4
+289- Dark City Version 4 (alt)
+290- Dark City Version 5
+291- Dark City Version 5 (alt)
+292- Dark City Version 6
+293- Dark City Version 6 (alt)
+294- Training Room
+295- OCH Depth 1
+296- OCH Depth 1 (alt)
+297- OCH Depth 1 (alt)
+298- OCH Depth 2
+299- OCH Depth 2 (alt)
+300- OCH Depth 2 (alt)
+301- OCH Depth 3
+302- OCH Depth 3 (alt)
+303- OCH Depth 3 (alt)
+304- OCH Depth 4
+305- OCH Depth 4 (alt)
+306- OCH Depth 4 (alt)
+307- OCH Depth 5 (Boss Room)
+308- OCH Depth 5 (alt)
+309- OCH Depth 5 (alt)
+310- OCH Depth 6 (Treasure Room)
+311- OCH Depth 6 (Treasure Room) (alt)
+312- OCH Depth 6 (Treasure Room) (alt)
+318- Hall of Heroes
+320- Roarmulus Twins Depth 1
+321- Dark Roarmulus Twins Depth 1 (SL)
+322- Roarmulus Twins Depth 3 (Boss Room)
+323- Dark Roarmulus Twins Depth 3 (Boss Room) (SL)
+324- Roarmulus Twins Depth 2
+325- Dark Roarmulus Twins Depth 2 (SL)
+327- null
+328- null
+329- null
+330- null
+333- Compound 42 (Treasure Room)
+338- Clockwork Tutorial Depth 1
+339- Shadow Lair
+347- Blades of the Fallen Mission Level
+348- Tier 1 Arcade Depth 0
+349- null
+351- Mission Ready Room
+352- OCH Mission Ready Room
+353- Danger Mission Ready Room
+356- null
+357- Sanctuary
+363- Aurora Isles (The Jelly Farm)
+365- Aurora Isles (The Low Gardens)
+366- Aurora Isles (Geo Knight Camp)
+367- Jigsaw Valley (Emerald Axis)
+368- Jigsaw Valley (Emerald Axis)
+369- Jigsaw Valley (Emerald Axis II)
+370- Jigsaw Valley (Emerald Axis II)
+371- Jigsaw Valley (Perimeter Promenade)
+372- Jigsaw Valley (Perimeter Promenade)
+373- Jigsaw Valley (Perimeter Promenade II)
+374- Jigsaw Valley (Perimeter Promenade II)
+375- Jigsaw Valley (Jade Tangle)
+377- Jigsaw Valley (Jade Tangle II)
+378- Jigsaw Valley (Jade Tangle II)
+380- Snarbolax Depth 1
+381- Dark Snarbolax Depth 1 (SL)
+382- Snarbolax Depth 2
+383- Dark Snarbolax Depth 2 (SL)
+384- Snarbolax Depth 3 (Boss Room)
+385- Dark Snarbolax Depth 3 (Boss Room) (SL)
+387- Starlight Cradle Version 1
+425- Heart of Ice Floor 2
+426- Heart of Ice Floor 3 (Treasure Room)
+427- Danger Mission Ready Room Variant 1
+428- Danger Mission Ready Room Variant 2
+431- Compound 42 Floor 1
+432- Ghost in the Machine Floor 2 (Boss Room)
+433- Ghost in the Machine Floor 3 (Treasure Room)
+434- Danger Mission Ready Room Variant 3
+440- The Collector Mission Level
+442- Punkin King Prestige (Boss Room)
+445- Haven (Garrison)
+446- Guild Training Hall (Tier 1)
+448- Guild Training Hall (Tier 3)
+492- Guild Hall (Normal Variant) (2 Floors)
+708- Guild Hall (Fire Variant) (4 Floors)
+19729- Guild Hall (Normal Variant) (1.5 Floors)
+19730- Guild Hall (Normal Variant) (1.5 Floors) (Genolo Guild)
+25129- Angels from Antiquity Mission (Rank 2-2) (Restless Railroad)
+25131- The Lab
+25136- Cooling Chamber Variant 1
+25137- The Phantom Mask Mission (Rank 2-2) (Creeping Cavern)
+25138- Clockwork Tunnels Variant 1
+25139- Mission Specific Early Level
+25140- A Revelation in Flames Mission (Rank 2-2) (Sunset Steppes)
+26827- Guild Hall (Fire Variant) (4.5 Floors)
+27911- A New Threat Mission (The Lab under attack)
+27912- A New Threat Mission (A dark and rainy Haven Garrison)
+27913- Apocrea Mission Ready Room
+28074- Apocrea Mission End
+28075- Mission Ready Room
+28908- Grinchlin Assault Danger Mission Ready Room
+28909- Grinchlin Assault Danger Mission (Floor 1)
+28910- Grinchlin Assault Danger Mission (Floor 2)
+30097- Guild Hall (Whitespace Variant) (5 Floors)
+30364- March of the Tortodrones Mission Ready Room
+30365- March of the Tortodrones Variant 1
+30366- March of the Tortodrones Variant 2
+30367- March of the Tortodrones Variant 3
+30893- The Lab (alt)
+31444- The Crimson Order Mission Specific Room
+32209- Guild Hall (Ice Variant) (3 Floors)
+33618- Guild Hall (Rain Variant) (4 Floors)
+34046- Crimson Order Mission Specific Room (Turrets)
+34047- Breaking in the Recruits Mission (Rank 10-1) (Operation Greenhorn)
+34048- Breaking in the Recruits Mission (Rank 10-1) (The Overworks)
+34416- Shadowplay (Rank 10-1) (Greenstone Bridge)
+34417- Shadowplay (Rank 10-1) (Throne Room) (Boss Room)
+34504- Shadowplay (Rank 10-1) (Overgrown Court)
+34505- null
+34890- Dream & Nightmares (Descent into Darkness)
+34891- Dream & Nightmares (Refuge)
+36452- Guild Hall (Ice Variant) (3 Floors)
+37288- Guild Hall (Ice Variant) (2.5 Floors)
+37432- Guild Hall (Shock Variant) (4.5 Floors)
+37433- Guild Hall (Shock Variant) (4.5 Floors) (Wish Feather Guild)
+39424- Guild Hall (Whitespace Variant) (5 Floors)
+39896- Guild Hall (Normal Variant) (1 Floor)
+39910- Guild Hall (Normal Variant) (2 Floors)
+39911- Guild Hall (Normal Variant) (3 Floors)
+40014- Guild Hall (Ice Variant) (5 Floors)
+40318- Guild Hall (Shock Variant) (2 Floors)
+40430- Guild Hall (Default)
+40494- Guild Hall (Ice Variant) (2 Floors)
+3-point maps
+release 2011-09-14: Forest map introduced. Based on Gloaming Wildwoods.
+release 2011-09-14: Reactor map introduced. Based on the Icon status shock.png shock themed map from the Clockwork Tunnels: Power Complex.
+release 2011-10-05: Furnace map introduced. Based on Firestorm Citadel and features Shadow Fire blocks that can be removed by throwing a globe of water.
+release 2011-12-12: Frostbite map introduced. Based on a Icon status freeze.png freeze themed map and features snowballs that you can throw at your opponents.
+release 2012-05-16: Gardens map introduced. Based on Jigsaw Valley.
+release 2012-06-28: Mines map introduced.
+release 2012-12-12: Avenue map introduced during the second Winterfest and features snowballs that you can throw at your opponents but the ones in the center are guarded by a Slush Puppy, be warned!
+release 2017-03-17: Icebox map introduced.
+release 2017-03-30: Pipeline map introduced.
+Unknown release: Fortress map introduced. Based on Scarlet Fortress.
+5-point maps
+release 2011-09-14: Necropolis map introduced. Based on Graveyard.
+release 2011-09-14: Ruins map introduced. Based on Aurora Isles.
+release 2011-09-14: Facility map introduced. Based on Ironclaw Munitions Factory.
+release 2011-10-05: Ramparts map introduced. Based on Scarlet Fortress.
+release 2012-05-24: Downtown map introduced. Based on the Icon status freeze.png freeze themed map from the Devilish Drudgery. Hiring Freeze
+release 2012-06-28: Stadium map introduced.
