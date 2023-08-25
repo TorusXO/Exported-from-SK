@@ -14,6 +14,7 @@ I wanted to make fanarts of the game, that's why I had to export whole folders a
 Now I'm sharing it with you, so that there could be more 3D arts or animations of our beloved game.
 
 ## How to copy this large repo:
+Download this as a ZIP and use, or if you want to get it through git, then
 You need to add a few adjustments to .gitconfig that is global to your system.
 
 Open system console and write:
