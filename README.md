@@ -1,5 +1,5 @@
 # Library of exported Spiral Knights models
- This repo contains original files of sk with their converted versions.
+ This repo contains spiral knights model library with their converted versions.
 
  All of the models that were able to convert are put in their .dat s folders with .glb extensions. 
 
